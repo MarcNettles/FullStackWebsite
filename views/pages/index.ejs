@@ -7,28 +7,8 @@
 //
 // Things I want to use: Back-end/Front-end separation, Bootstrap, NodeJS, ExpressJS, EJS, maybe try some reactJS
 -->
-<!DOCTYPE html>
-<html lang="en">
+<%- include("../layoutTOP") %>
 
-<!-- Including the head and header reusable partials -->
-<head>
-	<%- include('../partials/head') -%> <!--This is how you include a reusable partial-->
-</head>
-
-<body>
-	<div class="container-fluid g-0"> <!-- Using container-fluid gives 100% width wrapper container; g-0 removes the "gutters" (aka margins)-->
-		
-		<!-- I want to put this in a div that has height: 250px; but for some reason when I wrap JUST this in a div, it then puts the navbar above the images.-->
-		<%- include('../partials/banner') -%>
-
-		
-		<div class="sticky-top"> <!-- sticky-top we define as position:sticky;top:0px;-->
-			<%- include('../partials/navbar') -%>
-		</div>
-
-		<div class="container-fluid">
-			<main role="main" id="main"> <!--id="main" left if you want to use the CSS display: grid; instead of Bootstrap--> <!--role="main" is for accessibility. Read up on ARIA roles.-->
-				
 				<!-- Main content area below the navbar. Divided into one main row and three columns, the middle column being set to be larger-->
 				<div class="row gx-5">
 
@@ -331,15 +311,4 @@
 					</div>
 				</div>
 				
-				
-			</main>
-		</div>
-		<br>
-		<footer role="contentinfo" class="text-center bg-dark sticky-bottom">
-			<%- include('../partials/footer') -%>
-		</footer>
-	</div>
-	
-
-</body>
-</html>
+<%- include("../layoutBOTTOM") %>

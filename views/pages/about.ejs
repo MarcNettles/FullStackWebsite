@@ -8,26 +8,7 @@
 // Things I want to use: Back-end/Front-end separation, Bootstrap, NodeJS, ExpressJS, EJS, maybe try some reactJS
 -->
 
-<!DOCTYPE html>
-<html lang="en">
-
-<!-- Including the head and header reusable partials -->
-<head>
-    <%- include("../partials/head") -%>
-</head>
-
-<body>
-
-    <%- include('../partials/banner') -%>
-
-    <div id="nav-area">
-        <%- include("../partials/navbar") -%>
-    </div>
-
-
-
-    <!-- The Content of the About Us Page-->
-    <main>
+<%- include("../layoutTOP") %>
         <div class="row">
             <div class="col">
 
@@ -64,18 +45,4 @@
 
 
         
-        
-
-
-
-
-    </main>
-
-
-
-    <!-- Including the footer reusable partial-->
-    <footer role="contentinfo" class = "text-center bg-dark sticky-bottom">
-        <%- include("../partials/footer") -%>
-    </footer>
-</body>
-</html>
+<%- include("../layoutBOTTOM") %>

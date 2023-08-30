@@ -10,23 +10,9 @@
 
 <!-- flickr.ejs is where I showcase making API calls to flickr -->
 
-<!DOCTYPE html>
-<html lang="en">
+<%- include("../layoutTOP") %>
 
-<!-- Including the head and header reusable partials -->
-<head>
-	<%- include('../partials/head') -%>
-    
-    <script type="text/javascript" src="/javascripts/flickr.js"></script>
-</head>
 
-<body>
-    <%- include('../partials/banner') -%>
-    <header class="sticky-top">
-        <%- include('../partials/navbar') -%>
-    </header>
-
-    <main>
         <div class="container">
             <p class="display-6">This area showcases my ability to make an API call to Flickr.</p>
             <div class="row">
@@ -74,12 +60,5 @@
             
             </div>
         </div>
-    </main>
 
-    <br>
-    <footer role="contentinfo" class= "text-center bg-dark sticky-bottom">
-        <%- include('../partials/footer') -%>
-    </footer>
-
-</body>
-</html>
+<%- include("../layoutBOTTOM") %>

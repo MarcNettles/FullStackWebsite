@@ -1,0 +1,28 @@
+<!-- Layout of the main parts of the website -->
+<!-- Basically, this is the template and then in the pages
+    we include this layout and then fill in the parts that are left empty
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('partials/head') %> <!-- includes the title-->
+  </head>
+
+  <!-- BODY -->
+  <body>
+    <div class="container-fluid g-0"> <!-- g-0 is for "no gutters" aka no margins-->
+      <!-- BANNER -->
+      <%- include('partials/banner') %>
+
+      <!-- NAVBAR -->
+      <div class="sticky-top"> <!-- Make the navbar stick to the top of the page when scrolling past it-->
+        <%- include('partials/navbar') %>
+      </div>
+
+
+      <div class="container-fluid">
+        <!-- MAIN -->
+        <main role="main">
+
