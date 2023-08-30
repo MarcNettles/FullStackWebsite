@@ -1,0 +1,81 @@
+<!--// Marc Nettles 06/27/2022
+//
+// The intent of this project is to set up my own private
+// web server which will host my public website containing
+// my coding and webdev projects.
+//
+//
+// Things I want to use: Back-end/Front-end separation, Bootstrap, NodeJS, ExpressJS, EJS, maybe try some reactJS
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Including the head and header reusable partials -->
+<head>
+    <%- include("../partials/head") -%>
+</head>
+
+<body>
+
+    <%- include('../partials/banner') -%>
+
+    <div id="nav-area">
+        <%- include("../partials/navbar") -%>
+    </div>
+
+
+
+    <!-- The Content of the About Us Page-->
+    <main>
+        <div class="row">
+            <div class="col">
+
+            </div>
+            <div class="col d-flex align-items-center"> <!-- Centering content using d-flex class and then align-items-center -->
+                <p class="display-6">Cybersecurity, Webdev, Software Engineering, SysAdmin, DB-Admin, and more!</p>
+            </div>
+            <div class="col d-flex justify-content-center"> <!-- How to center the content: use class d-flex AND class justify-content-center -->
+                <a href="https://www.linkedin.com/in/marc-nettles-4a27a41bb/"><img src="https://media.licdn.com/dms/image/D5635AQGvvVgRrW6-VA/profile-framedphoto-shrink_200_200/0/1624988863829?e=1691427600&v=beta&t=PAKWIUB4isp2jBV7y8Y2kEARyG-NcgFmhVWNqTQDj_Y"></a>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="container-fluid text-center p-5 bg-light mx-auto my-1">
+                <div class="container-fluid rounded bg-dark">
+                    <h1 style="color:gold"> About Me</h1>
+                </div>
+                <p> Hi, my name is Marc Nettles and I recently graduated with a degree in Computer Science from the University of Colorado Boulder (graduated: May 2023). </p>
+                <p>I believe effective communication is key to working well in a team. Teamwork is absolutely essential, because we probably won't all know everything about every technology out there, but when we work together we can help each other overcome those weaknesses. </p>
+                <br>
+                <div>
+                    <div class="container-md bg-dark rounded">
+                        <p style="color:goldenrod">Skills:</p>
+                    </div>
+                    <ul style="text-align:left">
+                        <li>Cybersecurity. I am familiar with several types of encryption (RSA, AES, etc) and hashing (MD5, SHA250, etc) as well as their drawbacks. I am familiar with various types of attacks including SQL injection, buffer overflow attacks, social engineering attacks (such as infected USB keys dropped in parking lots labelled "Payroll" to entice employees to plug them into their computers). I most recently studied under Alex Curtiss, Software Engineer with a focus on Security at Twitter (https://www.polywork.com/lexical)  </li>
+                        <li>Programming, both imperative and functional coding. Languages I have used before include Python, C, C++, Javascript, Scala, Java</li>
+                        <li>Webdev, I built this website from the ground up with a back-end that utilizes NodeJS, ExpressJS, and EJS and a front-end that uses HTML/CSS with Bootstrap, EJS, and JavaScript. The back-end also features a PostgreSQL database.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+        
+        
+
+
+
+
+    </main>
+
+
+
+    <!-- Including the footer reusable partial-->
+    <footer role="contentinfo" class = "text-center bg-dark sticky-bottom">
+        <%- include("../partials/footer") -%>
+    </footer>
+</body>
+</html>

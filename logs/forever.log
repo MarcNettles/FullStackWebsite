@@ -1,0 +1,2013 @@
+(node:29342) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+{"level":"error","message":"Could not read .foreverignore file."}
+{"level":"error","message":"ENOENT: no such file or directory, open '/opt/bitnami/projects/FullStackWebsite/.foreverignore'"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #1"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #2"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #3"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #4"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #5"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #6"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #7"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #8"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #9"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #10"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #11"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #12"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #13"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #14"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #15"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #16"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #17"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #18"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #19"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #20"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #21"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #22"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #23"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #24"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #25"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #26"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #27"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #28"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #29"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #30"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #31"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #32"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #33"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #34"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #35"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #36"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #37"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #38"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #39"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #40"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #41"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #42"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #43"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #44"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #45"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #46"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #47"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #48"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #49"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #50"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #51"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #52"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #53"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #54"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #55"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #56"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #57"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #58"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #59"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #60"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #61"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #62"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #63"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #64"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #65"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #66"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #67"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #68"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #69"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #70"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #71"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #72"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #73"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #74"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #75"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #76"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #77"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #78"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #79"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #80"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #81"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #82"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #83"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #84"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #85"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #86"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #87"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #88"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #89"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #90"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #91"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #92"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #93"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #94"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #95"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #96"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #97"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #98"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #99"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #100"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #101"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #102"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #103"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #104"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #105"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #106"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #107"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #108"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #109"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #110"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #111"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #112"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #113"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #114"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #115"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #116"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #117"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #118"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #119"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #120"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #121"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #122"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #123"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #124"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #125"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #126"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #127"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #128"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #129"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #130"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #131"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #132"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #133"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #134"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #135"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #136"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #137"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #138"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #139"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #140"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #141"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #142"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #143"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #144"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #145"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #146"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #147"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #148"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #149"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #150"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #151"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #152"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #153"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #154"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #155"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #156"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #157"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #158"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #159"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #160"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #161"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #162"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #163"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #164"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #165"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #166"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #167"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #168"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #169"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #170"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #171"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #172"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #173"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #174"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #175"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #176"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #177"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #178"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #179"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #180"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #181"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #182"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #183"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #184"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #185"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #186"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #187"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #188"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #189"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #190"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #191"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #192"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #193"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #194"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+(node:30656) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+{"level":"error","message":"Could not read .foreverignore file."}
+{"level":"error","message":"ENOENT: no such file or directory, open '/opt/bitnami/projects/FullStackWebsite/.foreverignore'"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #1"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #2"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #3"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #4"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #5"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #6"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #7"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #8"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #9"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #10"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #11"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #12"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #13"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #14"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #15"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #16"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #17"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #18"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #19"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #20"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #21"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #22"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #23"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #24"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #25"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #26"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #27"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #28"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #29"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #30"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #31"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #32"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #33"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #34"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #35"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #36"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #37"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #38"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #39"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #40"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #41"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #42"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #43"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #44"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #45"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #46"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #47"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #48"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #49"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #50"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #51"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #52"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #53"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #54"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #55"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #56"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #57"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #58"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #59"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #60"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #61"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #62"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #63"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #64"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #65"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #66"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #67"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #68"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #69"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #70"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #71"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #72"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #73"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #74"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #75"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #76"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #77"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #78"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #79"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #80"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #81"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #82"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #83"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #84"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #85"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #86"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #87"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #88"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #89"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #90"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #91"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #92"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #93"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #94"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #95"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #96"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #97"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #98"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #99"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #100"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #101"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #102"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #103"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #104"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #105"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #106"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #107"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #108"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #109"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #110"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #111"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #112"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #113"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #114"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #115"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #116"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #117"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #118"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #119"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #120"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #121"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #122"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #123"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #124"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #125"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #126"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #127"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #128"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #129"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #130"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #131"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #132"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #133"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #134"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #135"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #136"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #137"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #138"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #139"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #140"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #141"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #142"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #143"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #144"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #145"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #146"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #147"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #148"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #149"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #150"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #151"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #152"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #153"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #154"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #155"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #156"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #157"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #158"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #159"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #160"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #161"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #162"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #163"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #164"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #165"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #166"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #167"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #168"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #169"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #170"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #171"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #172"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #173"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #174"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #175"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #176"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #177"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #178"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #179"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #180"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #181"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #182"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #183"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #184"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #185"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #186"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #187"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #188"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #189"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #190"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #191"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #192"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #193"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #194"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #195"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #196"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #197"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #198"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #199"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #200"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #201"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #202"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #203"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #204"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #205"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #206"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #207"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #208"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #209"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #210"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #211"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #212"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #213"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #214"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #215"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #216"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #217"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #218"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #219"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #220"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #221"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #222"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #223"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #224"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #225"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #226"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #227"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #228"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #229"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #230"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #231"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #232"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #233"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #234"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #235"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #236"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #237"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #238"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #239"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #240"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #241"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #242"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #243"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #244"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #245"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #246"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #247"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #248"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #249"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #250"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #251"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #252"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #253"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #254"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #255"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #256"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #257"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #258"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #259"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #260"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #261"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #262"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #263"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #264"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #265"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #266"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #267"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #268"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #269"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #270"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #271"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #272"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #273"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #274"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #275"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #276"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #277"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #278"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #279"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #280"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #281"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #282"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #283"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #284"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #285"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #286"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #287"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #288"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #289"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #290"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #291"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #292"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #293"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #294"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #295"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #296"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #297"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #298"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #299"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #300"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #301"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #302"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #303"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #304"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #305"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #306"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #307"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #308"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #309"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #310"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #311"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #312"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #313"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #314"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #315"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #316"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #317"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #318"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #319"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #320"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #321"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #322"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #323"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #324"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #325"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #326"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #327"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #328"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #329"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #330"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #331"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #332"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #333"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #334"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #335"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #336"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #337"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #338"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #339"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #340"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #341"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #342"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #343"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #344"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #345"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #346"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #347"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #348"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #349"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #350"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #351"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #352"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #353"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #354"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #355"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #356"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #357"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #358"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #359"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #360"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #361"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #362"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #363"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #364"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #365"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #366"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #367"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #368"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #369"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #370"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #371"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #372"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #373"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #374"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #375"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #376"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #377"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #378"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #379"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #380"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #381"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #382"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #383"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #384"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #385"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #386"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #387"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #388"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #389"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #390"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #391"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #392"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #393"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #394"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #395"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #396"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #397"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #398"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #399"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #400"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #401"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #402"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #403"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #404"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #405"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #406"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #407"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #408"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #409"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #410"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #411"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #412"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #413"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #414"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #415"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #416"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #417"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #418"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #419"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #420"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #421"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #422"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #423"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #424"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #425"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #426"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #427"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #428"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #429"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #430"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #431"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #432"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #433"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #434"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #435"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #436"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #437"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #438"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #439"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #440"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #441"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #442"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #443"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #444"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #445"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #446"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #447"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #448"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #449"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #450"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #451"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #452"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #453"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #454"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #455"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #456"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #457"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #458"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #459"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #460"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #461"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #462"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #463"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #464"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #465"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #466"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #467"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #468"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #469"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #470"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #471"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #472"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #473"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #474"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #475"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #476"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #477"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #478"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #479"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #480"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #481"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #482"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #483"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #484"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"Script restart attempt #485"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #486"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #487"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #488"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #489"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #490"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #491"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #492"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #493"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #494"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #495"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #496"}
+{"level":"error","message":"Forever detected script exited with code: 0"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Script restart attempt #497"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+(node:33859) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+{"level":"error","message":"Could not read .foreverignore file."}
+{"level":"error","message":"ENOENT: no such file or directory, open '/opt/bitnami/projects/FullStackWebsite/.foreverignore'"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/bin/www changed"}
+{"level":"error","message":"restarting script because /opt/bitnami/projects/FullStackWebsite/logs/forever.log changed"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+{"level":"error","message":"Script restart attempt #1"}
+{"level":"error","message":"Forever detected script was killed by signal: SIGKILL"}
+(node:33921) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+{"level":"error","message":"Could not read .foreverignore file."}
+{"level":"error","message":"ENOENT: no such file or directory, open '/opt/bitnami/projects/FullStackWebsite/.foreverignore'"}

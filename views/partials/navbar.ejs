@@ -1,0 +1,58 @@
+<!--// Marc Nettles 06/27/2022
+//
+// The intent of this project is to set up my own private
+// web server which will host my public website containing
+// my coding and webdev projects.
+//
+//
+// Things I want to use: Back-end/Front-end separation, Bootstrap, NodeJS, ExpressJS, EJS, maybe try some reactJS
+-->
+
+
+<!-- Customizing the bootstrap look to change stuff like the color of the navbar -->
+<!--
+	<link rel="stylesheet" href="/stylesheets/custom_bootstrap_navbar.css">
+-->
+
+<!-- Here we see the navigation bar that shows up at the top of each page-->
+<nav role="navigation" class="navbar navbar-expand-sm navbar-dark bg-dark" id="navbar">
+	<div class="container-fluid">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+				<p class="navbar-brand"> Marc Nettles </p>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="/">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="/about">About Me</a>
+			</li>
+			<!-- Dropdown Menu Example-->
+			<li class="nav-item dropdown">
+				<!-- Make this item the dropdown toggle-->
+				<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">My Projects</a>
+
+				<!-- Now to make and unsorted list of dropdown items to fill the dropdown menu-->
+				<ul class="dropdown-menu dropdown-menu-dark">
+					<!-- Each <li> here is an item on the dropdown menu list-->
+					<li><a class="dropdown-item" href="/flickr">Flickr Gallery Search</a></li>
+					<li><a class="dropdown-item" href="/tictactoe">Tic-Tac-Toe</a></li>
+					<li><a class="dropdown-item" href="/projects">All Projects</a></li>
+
+				</ul>
+
+			</li>
+		</ul>
+		<ul class="navbar-nav navbar-right">
+			<li>
+				<a class="nav-link" href="/signup">Sign Up</a>
+			</li>
+
+			<li>
+				<a class="navbar-brand navbar-right" href="https://github.com/MarcNettles">
+					<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" class="rounded-circle" alt="GitHub Logo" style="width:40px; height:40px;">
+				</a>
+			</li>
+		</ul>
+	</div>
+</nav>

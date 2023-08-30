@@ -1,0 +1,10 @@
+{
+		"uid": "FullStackWebsite",
+		"append": true,
+		"watch": true,
+		"script": "bin/www",
+		"sourceDir": "/opt/bitnami/projects/FullStackWebsite/",
+		"logFile": "/opt/bitnami/projects/FullStackWebsite/logs/forever.log",
+		"outFile": "/opt/bitnami/projects/FullStackWebsite/logs/out.log",
+		"errFile": "/opt/bitnami/projects/FullStackWebsite/logs/error.log"
+}

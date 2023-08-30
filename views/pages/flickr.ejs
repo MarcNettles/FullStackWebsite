@@ -1,0 +1,85 @@
+<!--// Marc Nettles 06/27/2022
+//
+// The intent of this project is to set up my own private
+// web server which will host my public website containing
+// my coding and webdev projects.
+//
+//
+// Things I want to use: Back-end/Front-end separation, Bootstrap, NodeJS, ExpressJS, EJS, maybe try some reactJS
+-->
+
+<!-- flickr.ejs is where I showcase making API calls to flickr -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Including the head and header reusable partials -->
+<head>
+	<%- include('../partials/head') -%>
+    
+    <script type="text/javascript" src="/javascripts/flickr.js"></script>
+</head>
+
+<body>
+    <%- include('../partials/banner') -%>
+    <header class="sticky-top">
+        <%- include('../partials/navbar') -%>
+    </header>
+
+    <main>
+        <div class="container">
+            <p class="display-6">This area showcases my ability to make an API call to Flickr.</p>
+            <div class="row">
+                <div class="col">
+                    
+                    
+                    <!-- Had to remove form to get it to actually make the api call -->
+                    <!--<form>-->
+                            <!--
+                            <div class="form-group">
+                                <label for="numberImages">Select how many pictures per page:</label>
+                                <select class="form-control" id="numberImages">
+                                    <option>30</option>
+                                    <option>50</option>
+                                    <option>70</option>
+                                </select>
+                            </div>
+                        -->
+                        
+
+                        
+                            <div class ="form-group">
+                                <label for="filterTags">Enter Search Here:</label>
+                                <input type="text" class="form-control" id="filterTags" placeholder="Type Search Query Here: e.g. 'Trucks'">
+                            </div>
+                        
+
+                            <br>
+
+                            
+                            <button type="submit" class="btn btn-primary" onClick="clearPhotos(); makeApiCall();" id="flickr_submit" >Submit</button>
+                            <button type="button" class="btn btn-primary" onClick="clearPhotos();">Clear</button>
+
+                    
+                    <!--</form>-->
+                
+                
+                </div>
+            </div>
+        
+        </div>
+        <div class="container">
+            <div class="row" id="photoPlaceholder">
+            
+            
+            </div>
+        </div>
+    </main>
+
+    <br>
+    <footer role="contentinfo" class= "text-center bg-dark sticky-bottom">
+        <%- include('../partials/footer') -%>
+    </footer>
+
+</body>
+</html>

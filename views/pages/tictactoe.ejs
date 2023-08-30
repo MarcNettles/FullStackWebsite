@@ -1,0 +1,107 @@
+<!--// Marc Nettles 06/27/2022
+//
+// The intent of this project is to set up my own private
+// web server which will host my public website containing
+// my coding and webdev projects.
+//
+//
+// Things I want to use: Back-end/Front-end separation, Bootstrap, NodeJS, ExpressJS, EJS, maybe try some reactJS
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%- include("../partials/head") -%>
+        <script src="/javascripts/tictactoe.js"></script>
+    </head>
+    <body>
+
+        <%- include('../partials/banner') -%>
+
+        <header class="sticky-top">
+            <%- include("../partials/navbar") -%>
+        </header>
+        <main>
+            <div class="container-fluid text-center p-5 bg-light mx-auto my-1">
+                <div class="container-fluid rounded bg-dark">
+                    <h1 style="color:gold"> Tic-Tac-Toe</h1>
+                </div>
+
+            </div>
+            <br>
+            <br>
+            <div class="container">
+                <form>
+                  <div class="form-group row">
+                    <label for="player1" class="col-sm-2 col-form-label">Player 1:</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="player1_id" placeholder="player1_name">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="player2" class="col-sm-2 col-form-label">Player 2:</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="player2_id" placeholder="player2_name">
+                    </div>
+                  </div>
+                  <br>
+                  <div class="form-group row">
+                    <div class="col-sm-5 ">
+                      <button type="button" class="btn btn-primary" onclick="begin_play()">Begin Play</button>
+                      <button type="button" class="btn btn-primary" onclick="reset_play()">Reset Play</button>
+                    </div>
+                  </div>
+                </form>
+            </div>
+            <div class ="container">
+            
+                <div id ="turn_info">
+                    Game has not begin.
+                </div>
+                <br/>
+            </div>
+            
+            <div class="container">
+            <table class="table table-bordered">
+              <tbody>
+                <tr>
+                  <td class="text-center" id="A1">A1</td>
+                  <td class="text-center" id="A2">A2</td>
+                  <td class="text-center" id="A3">A3</td>
+                </tr>
+                <tr>
+                  <td class="text-center" id="B1">B1</td>
+                  <td class="text-center" id="B2">B2</td>
+                  <td class="text-center" id="B3">B3</td>
+                </tr>
+                <tr>
+                  <td class="text-center" id="C1">C1</td>
+                  <td class="text-center" id="C2">C2</td>
+                  <td class="text-center" id="C3">C3</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+            
+            <div class="container">
+                <form>
+                <div class="form-group row">
+                    <label for="player1" class="col-sm-2 col-form-label">Move:</label>
+                    <div class="col-sm-5">
+                      <input type="text" class="form-control" id="move_text_id" placeholder="Cell Number for Example: A1" onkeydown="moveEnter(event)">
+                  </div>
+                  <div class="col-sm-5">
+                      <button type="button" class="btn btn-primary" onclick="play();">Play</button>
+                   </div>
+                  </div>
+                </form>
+            
+            </div>
+        </main>
+    </body>
+    <br>
+    <footer role="contentinfo" class="text-center bg-dark sticky-bottom">
+        <%- include("../partials/footer") -%>
+    </footer>
+</html>

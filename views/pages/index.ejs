@@ -1,0 +1,345 @@
+<!--// Marc Nettles 06/27/2022
+//
+// The intent of this project is to set up my own private
+// web server which will host my public website containing
+// my coding and webdev projects.
+//
+//
+// Things I want to use: Back-end/Front-end separation, Bootstrap, NodeJS, ExpressJS, EJS, maybe try some reactJS
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Including the head and header reusable partials -->
+<head>
+	<%- include('../partials/head') -%> <!--This is how you include a reusable partial-->
+</head>
+
+<body>
+	<div class="container-fluid g-0"> <!-- Using container-fluid gives 100% width wrapper container; g-0 removes the "gutters" (aka margins)-->
+		
+		<!-- I want to put this in a div that has height: 250px; but for some reason when I wrap JUST this in a div, it then puts the navbar above the images.-->
+		<%- include('../partials/banner') -%>
+
+		
+		<div class="sticky-top"> <!-- sticky-top we define as position:sticky;top:0px;-->
+			<%- include('../partials/navbar') -%>
+		</div>
+
+		<div class="container-fluid">
+			<main role="main" id="main"> <!--id="main" left if you want to use the CSS display: grid; instead of Bootstrap--> <!--role="main" is for accessibility. Read up on ARIA roles.-->
+				
+				<!-- Main content area below the navbar. Divided into one main row and three columns, the middle column being set to be larger-->
+				<div class="row gx-5">
+
+					<!-- Aside Left Column-->
+					<div class="col">
+						<div class="row bg-dark border-top">
+							<div class="col">
+								<!-- Left empty to center the Aside L-->
+							</div>
+
+							<div class="col" style="text-align: center;">
+								<p style="color:aliceblue">CATEGORY 1</p>
+							</div>
+
+							<div class="col">
+								<!-- Left empty to center the Aside L-->
+							</div>
+						</div>
+						<div class="row bg-secondary">
+							<div class="col">
+								<img src="resources/2560px-Node.js_logo.svg.png" alt="NodeJS logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/AjaxLogo.png" alt="AJAX logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/BootstrapLogo.png" alt="Bootstrap logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/CLogo.png" alt="C Programming Language logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/CPPLogo.png" alt="C Plus Plus logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/PythonLogo.png" alt="Python logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/ScalaLogo.png" alt="Scala logo" height="100" width="150">
+							</div>
+
+						</div>
+						
+						<div class="row bg-dark border-top">
+							<div class="col">
+								<!-- Left empty to center the Aside L-->
+							</div>
+
+							<div class="col" style="text-align: center;">
+								<p style="color:aliceblue">CATEGORY 2</p>
+							</div>
+
+							<div class="col">
+								<!-- Left empty to center the Aside L-->
+							</div>
+						</div>
+
+						<div class="row bg-light">
+							<div class="col">
+								<img src="resources/2560px-Node.js_logo.svg.png" alt="NodeJS logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/AjaxLogo.png" alt="AJAX logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/BootstrapLogo.png" alt="Bootstrap logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/CLogo.png" alt="C Programming Language logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/CPPLogo.png" alt="C Plus Plus logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/PythonLogo.png" alt="Python logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/ScalaLogo.png" alt="Scala logo" height="100" width="150">
+							</div>
+
+						</div>
+
+						<div class="row bg-dark border-top">
+							<div class="col">
+								<!-- Left empty to center the Aside L-->
+							</div>
+
+							<div class="col" style="text-align: center;">
+								<p style="color:aliceblue">CATEGORY 3</p>
+							</div>
+
+							<div class="col">
+								<!-- Left empty to center the Aside L-->
+							</div>
+						</div>
+
+						<div class="row bg-secondary">
+							<div class="col">
+								<img src="resources/2560px-Node.js_logo.svg.png" alt="NodeJS logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/AjaxLogo.png" alt="AJAX logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/BootstrapLogo.png" alt="Bootstrap logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/CLogo.png" alt="C Programming Language logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/CPPLogo.png" alt="C Plus Plus logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/PythonLogo.png" alt="Python logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/ScalaLogo.png" alt="Scala logo" height="100" width="150">
+							</div>
+
+						</div>
+
+						<div class="row bg-dark border-top">
+							<div class="col">
+								<!-- Left empty to center the Aside L-->
+							</div>
+
+							<div class="col" style="text-align: center;">
+								<p style="color:aliceblue">CATEGORY 4</p>
+							</div>
+
+							<div class="col">
+								<!-- Left empty to center the Aside L-->
+							</div>
+						</div>
+
+						<div class="row bg-light">
+							<div class="col">
+								<img src="resources/2560px-Node.js_logo.svg.png" alt="NodeJS logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/AjaxLogo.png" alt="AJAX logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/BootstrapLogo.png" alt="Bootstrap logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/CLogo.png" alt="C Programming Language logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/CPPLogo.png" alt="C Plus Plus logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/PythonLogo.png" alt="Python logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/ScalaLogo.png" alt="Scala logo" height="100" width="150">
+							</div>
+
+						</div>
+						
+					</div>
+
+					<!-- Main Article Content-->
+					<div role="article" class="col-5 bg-light">
+						<div class="d-flex justify-content-center">
+							<p class="display-6">~My Journey~</p>
+						</div>
+						<p> 
+							Hello, my name is Marc Nettles. I recently graduated from the University of Colorado Boulder. 
+							Professionally, I am interested in <em>everything</em> from CyberSecurity to Software Engineering.
+						</p>
+
+					</div>
+
+					<!-- Aside Right Column -->
+					<div class="col">
+						<div class="row bg-dark border-top">
+							<div class="col">
+								<!-- Left empty to center the Aside R-->
+							</div>
+							<div class="col" style="text-align: center;">
+								<p style="color:aliceblue">Category A</p>
+							</div>
+							<div class="col">
+								<!-- Left empty to center the Aside R-->
+							</div>
+						</div>
+						<div class="row bg-secondary">
+							<div class="col">
+								<img src="resources/HTML5Logo.png" alt="HTML5 logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/CSS3Logo.png" alt="CSS3 logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/ejsLogo.jpg" alt="EJS logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/ExpressJSLogo.png" alt="ExpressJS logo" height="100" width="250">
+							</div>
+							<div class="col">
+								<img src="resources/JavascriptLogo.png" alt="Javascript logo" height="100" width="150">
+							</div>
+
+						</div>
+		
+
+						<div class="row bg-dark border-top">
+							<div class="col">
+								<!-- Left empty to center the Aside R-->
+							</div>
+							<div class="col" style="text-align: center;">
+								<p style="color:aliceblue">Category B</p>
+							</div>
+							<div class="col">
+								<!-- Left empty to center the Aside R-->
+							</div>
+						</div>
+						<div class="row bg-light">
+							<div class="col">
+								<img src="resources/vmwareLogo.png" alt="vmware logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/vmwareLogo.png" alt="vmware logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/vmwareLogo.png" alt="vmware logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/vmwareLogo.png" alt="vmware logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/vmwareLogo.png" alt="vmware logo" height="100" width="150">
+							</div>
+
+						</div>
+						
+
+						<div class="row bg-dark border-top">
+							<div class="col">
+								<!-- Left empty to center the Aside R-->
+							</div>
+							<div class="col" style="text-align: center;">
+								<p style="color:aliceblue">Category C</p>
+							</div>
+							<div class="col">
+								<!-- Left empty to center the Aside R-->
+							</div>
+						</div>
+						<div class="row bg-secondary">
+							<div class="col">
+								<img src="resources/HTML5Logo.png" alt="HTML5 logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/CSS3Logo.png" alt="CSS3 logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/ejsLogo.jpg" alt="EJS logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/ExpressJSLogo.png" alt="ExpressJS logo" height="100" width="250">
+							</div>
+							<div class="col">
+								<img src="resources/JavascriptLogo.png" alt="Javascript logo" height="100" width="150">
+							</div>
+
+						</div>
+
+						<div class="row bg-dark border-top">
+							<div class="col">
+								<!-- Left empty to center the Aside R-->
+							</div>
+							<div class="col" style="text-align: center;">
+								<p style="color:aliceblue">Category D</p>
+							</div>
+							<div class="col">
+								<!-- Left empty to center the Aside R-->
+							</div>
+						</div>
+						<div class="row bg-light">
+							<div class="col">
+								<img src="resources/vmwareLogo.png" alt="vmware logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/vmwareLogo.png" alt="vmware logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/vmwareLogo.png" alt="vmware logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/vmwareLogo.png" alt="vmware logo" height="100" width="150">
+							</div>
+							<div class="col">
+								<img src="resources/vmwareLogo.png" alt="vmware logo" height="100" width="150">
+							</div>
+
+
+						</div>
+
+					</div>
+				</div>
+				
+				
+			</main>
+		</div>
+		<br>
+		<footer role="contentinfo" class="text-center bg-dark sticky-bottom">
+			<%- include('../partials/footer') -%>
+		</footer>
+	</div>
+	
+
+</body>
+</html>

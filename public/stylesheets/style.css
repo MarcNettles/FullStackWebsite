@@ -1,0 +1,35 @@
+/* These are classes (.blah is the class blah). Anything with the class .sticky-top will 
+ * stick to the top of the screen as you scroll past it
+ */
+/*.sticky-top{
+  position: sticky;
+  top: 0px;
+}
+
+.sticky-bottom{
+  position: sticky;
+  bottom: 0px;
+}*/
+
+
+/* DO NOT USE WITH BOOTSTRAP. It has it's own built-in grid (https://getbootstrap.com/docs/5.0/layout/grid/) 
+ * which contains "containers" (https://getbootstrap.com/docs/5.0/layout/containers/). Only use this if you disable Bootstrap first.
+ */
+ /*
+.container-grid{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas:
+  "header header header"
+  "aside_L main aside_R"
+  "aside_L main aside_R"
+  "aside_L main aside_R"
+  "footer footer footer";
+  max-width: 1200px;
+  margin: auto;
+  height: 50vh;
+  width: 100vw;
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+}
+*/
