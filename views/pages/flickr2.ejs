@@ -1,0 +1,65 @@
+<!--// Marc Nettles 06/27/2022
+//
+// The intent of this project is to set up my own private
+// web server which will host my public website containing
+// my coding and webdev projects.
+//
+//
+// Things I want to use: Back-end/Front-end separation, Bootstrap, NodeJS, ExpressJS, EJS, maybe try some reactJS
+-->
+
+<!-- flickr.ejs is where I showcase making API calls to flickr -->
+
+<%- include("../layoutTOP") %>
+
+
+        <div class="container">
+            <p class="display-6">This area showcases my ability to make an API call to Flickr.</p>
+            <div class="row">
+                <div class="col">
+                    
+                    
+                    
+                    <form id="search-form">
+                            <!--
+                            <div class="form-group">
+                                <label for="numberImages">Select how many pictures per page:</label>
+                                <select class="form-control" id="numberImages">
+                                    <option>30</option>
+                                    <option>50</option>
+                                    <option>70</option>
+                                </select>
+                            </div>
+                        -->
+                        
+
+                        
+                            <div class ="form-group">
+                                <label for="filterTags">Enter Search Here:</label>
+                                <input type="text" class="form-control" id="search-term" placeholder="Type Search Query Here: e.g. 'Trucks'">
+                            </div>
+                        
+
+                            <br>
+
+                            
+                            <button type="submit" class="btn btn-primary">Submit</button>
+
+                    
+                    </form>
+                
+                
+                </div>
+            </div>
+        
+        </div>
+        <div id="results"></div>
+        <script src="javascripts/flickr2.js"></script>
+        <div class="container">
+            <div class="row" id="photoPlaceholder">
+            
+            
+            </div>
+        </div>
+
+<%- include("../layoutBOTTOM") %>

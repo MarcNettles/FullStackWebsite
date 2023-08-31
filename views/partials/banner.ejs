@@ -7,34 +7,34 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inconsolata&family=Inter:wght@300&family=Nunito+Sans:opsz@6..12&family=Poppins:wght@300&family=Roboto&display=swap" rel="stylesheet"> 
 
-<div class="container-fluid text-sm-center p-3 bg-warning" style="height:300px; max-height: 300px;min-height: 300px; overflow-y: auto;">
+<div class="container-fluid text-sm-center p-3 bg-warning d-none d-sm-none d-md-none d-lg-none d-xl-block" style="height:300px; max-height: 300px;min-height: 300px; overflow-y: auto;">
     <div class="row-1">
         <div class="row">
             <div class="col"></div>
             <div class="col-4">
-                <p class="display-2" style="font-family: 'Abril Fatface', cursive;">Marc Nettles</p>
+                <h1 class="h1 display-2" style="font-family: 'Abril Fatface', cursive;">Marc Nettles</h1>
             </div>
             <div class="col"></div>
             
         </div>
         
         <div class="row">
-            <div class="col">
+            <div class="col d-none d-sm-none d-md-none d-lg-none d-xl-block">
                 <p class="lead">Graduated CU Boulder's <b>Computer Science Bachelor of Science</b> degree program in May of 2023</p>
             </div>
 
-            <div class="col">
+            <div class="col d-none d-sm-none d-md-none d-lg-none d-xl-block">
                 <p class="lead">Proud Veteran of the <b>U.S. Air Force</b></p>
             </div>
         </div>
 
         <div class="row">
-            <div class="col">
-                <a href="https://www.colorado.edu/"><img src="https://www.colorado.edu/brand/sites/default/files/styles/medium/public/page/boulder-one-line-reverse.png" height="50" width="250" alt="University of Colorado Boulder Buffs Logo"></a> 
+            <div class="col d-none d-xl-block"> <!--"d-none" hides all until "d-xl-block" which is saying "hide all sizes below this by considering all the sizes below this one big block of sizes".-->
+                <a href="https://www.colorado.edu/"><img src="resources/boulder-one-line-reverse.webp" height="50" width="250" alt="University of Colorado Boulder Buffs Logo" class="img-fluid"></a>
             </div>
 
-            <div class="col">
-                <a href="https://www.af.mil/"><img src="resources/AirForceLogo.png" height="50 " width="50" alt="U.S. Air Force Logo"></a>
+            <div class="col d-none d-sm-none d-md-none d-lg-none d-xl-block">
+                <a href="https://www.af.mil/"><img src="resources/AirForceLogo.png" height="75 " width="75" alt="U.S. Air Force Logo" class="img-fluid"></a>
             </div>
         </div>
         

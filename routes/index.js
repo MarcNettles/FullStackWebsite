@@ -84,6 +84,13 @@ router.get('/testpage', (req,res)=>{
     title:"Test Page | Marc Nettles"
   });
 });
+
+
+router.get('/flickr2', (req,res) =>{
+  res.render('pages/flickr2', {
+    title:"Flickr 2 | Marc Nettles"
+  });
+});
 //-------------------------------------END------------------------------------------->
 //===================================================================================>
 
