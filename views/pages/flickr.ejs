@@ -10,7 +10,7 @@
 
 <!-- flickr.ejs is where I showcase making API calls to flickr -->
 
-<%- include("../layoutTOP") %>
+
 
 
         <div class="container">
@@ -19,8 +19,8 @@
                 <div class="col">
                     
                     
-                    <!-- Had to remove form to get it to actually make the api call -->
-                    <!--<form>-->
+                    
+                    <form id="search-form">
                             <!--
                             <div class="form-group">
                                 <label for="numberImages">Select how many pictures per page:</label>
@@ -36,24 +36,25 @@
                         
                             <div class ="form-group">
                                 <label for="filterTags">Enter Search Here:</label>
-                                <input type="text" class="form-control" id="filterTags" placeholder="Type Search Query Here: e.g. 'Trucks'">
+                                <input type="text" class="form-control" id="search-term" placeholder="Type Search Query Here: e.g. 'Trucks'">
                             </div>
                         
 
                             <br>
 
                             
-                            <button type="submit" class="btn btn-primary" onClick="clearPhotos(); makeApiCall();" id="flickr_submit" >Submit</button>
-                            <button type="button" class="btn btn-primary" onClick="clearPhotos();">Clear</button>
+                            <button type="submit" class="btn btn-primary">Submit</button>
 
                     
-                    <!--</form>-->
+                    </form>
                 
                 
                 </div>
             </div>
         
         </div>
+        <div id="results"></div>
+        <script src="javascripts/flickr2.js"></script>
         <div class="container">
             <div class="row" id="photoPlaceholder">
             
@@ -61,4 +62,3 @@
             </div>
         </div>
 
-<%- include("../layoutBOTTOM") %>

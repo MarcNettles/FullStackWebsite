@@ -12,38 +12,11 @@
 <!-- signup.ejs is a separate page where the user can either log in or sign up. User name and their hashed passwords
     will be stored in the back-end database (I will probably use pg-promise in app.js to get a connection to a PostgreSQL DB)-->
 
+<link rel="stylesheet" type="text/css" href="/stylesheets/signup.css">
+<script type="text/javascript" src="/javascripts/signup.js"></script>
 
 
-<!-- Boilerplate HTML5 start -->
-<!DOCTYPE html>
-<html lang="en">
 
-    <!-- Using EJS to include partials for the head, check head.ejs for more-->
-    <head>
-        <%- include("../partials/head/") -%>
-
-
-        <!-- Including some extra stuff for this page, such as the css stylesheet signup.css and the javascript to
-            handle the signup modal pop-up password checking with signup.js -->
-
-        <!-- TESTING : BIG ISSUE => It isn't finding the href="signup.css", and I've tried many different permutations-->
-        <link rel="stylesheet" type="text/css" href="/stylesheets/signup.css">
-        <script type="text/javascript" src="/javascripts/signup.js"></script>
-
-    </head>
-
-    
-    <body>
-
-        <%- include('../partials/banner') -%>
-        <!-- Header also included with EJS, check header.ejs for more.
-        Class made "sticky-top" so that it stays at the top even when scrolling down -->
-        <header class="sticky-top">
-            <%- include("../partials/navbar") -%>
-        </header>
-
-        <!-- Main part of the page-->
-        <main>
 
             <!-- Just some text at the top of the screen-->
             <div class="container text-sm-center p-5 bg-warning" style="height:200px;">
@@ -133,12 +106,3 @@
                 </div>
             </div>
 
-
-
-        </main>
-
-    </body>
-    <footer role="contentinfo" class="text-center bg-dark sticky-bottom">
-        <%- include("../partials/footer") -%>
-    </footer>
-</html>

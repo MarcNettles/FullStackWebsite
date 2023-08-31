@@ -10,29 +10,13 @@
 
 <!-- projects.ejs is where I will organize and list all of my personal projects. -->
 
-<!DOCTYPE html>
-<html lang="en">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito+Sans:opsz@6..12&family=Poppins:wght@300&family=Roboto&display=swap');
+</style> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Inter:wght@300&family=Nunito+Sans:opsz@6..12&family=Poppins:wght@300&family=Roboto&display=swap" rel="stylesheet"> 
 
-<!-- Including the head and header reusable partials -->
-<head>
-	<%- include('../partials/head') -%>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito+Sans:opsz@6..12&family=Poppins:wght@300&family=Roboto&display=swap');
-    </style> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Inter:wght@300&family=Nunito+Sans:opsz@6..12&family=Poppins:wght@300&family=Roboto&display=swap" rel="stylesheet"> 
-</head>
-
-<body>
-
-    <%- include('../partials/banner') -%>
-
-    <header class="sticky-top">
-        <%- include('../partials/navbar') -%>
-    </header>
-
-    <main>
         <section class="py-5 text-center container">
 
             <div class="row py-lg-5">
@@ -103,12 +87,3 @@
         </section>
 
         
-    </main>
-
-    <br>
-    <footer role="contentinfo" class= "text-center bg-dark sticky-bottom">
-        <%- include('../partials/footer') -%>
-    </footer>
-
-</body>
-</html>

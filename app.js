@@ -60,7 +60,8 @@ app.use(helmet({
                     ],
                     "img-src": [
                         "'self'",
-                        "https://live.staticflickr.com"
+                        "https://live.staticflickr.com",
+                         "https://cdn.pixabay.com"
                     ]
                 },
             },
