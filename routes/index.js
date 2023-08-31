@@ -14,11 +14,10 @@ const router = express.Router();
 //=====================================//
 
 
-// Create a file stream to pull in html info from a file
+// Using EJS to render files so I can do my own layouts with partials still supported
 //======================================//
 //-----------------START----------------//
-const fs = require('fs');
-
+const ejs = require('ejs');
 
 
 //                    Handle all GET method requests
@@ -42,16 +41,19 @@ router.get('/', (req,res) => {
   });
 });
 */
-router.get('/', (req,res)=>{
-  fs.readFile("views/pages/index.ejs", function callback_read(err,data){
-    if (err){
-      throw err;
-    }
-    res.render('layout', {
+router.get('/', async (req,res)=>{ // Upgraded to async so we can use "await" on the ejs.renderFile
+  try{
+    const pageContents = await ejs.renderFile('views/pages/index.ejs'); // Rendering the file in order to get EJS to fill in the includes for the partials.
+    
+
+    res.render('layout', { // Now we render the basic layout, which has the variable content filled with the page contents we just pulled in.
       title:"Home | Marc Nettles | Personal Site | Full Stack Development | CU Boulder Computer Science Graduate",
-      content: data
+      content: pageContents
     });
-  });
+  } catch(error){ // Standard error handling
+    console.error('Error rendering partial:', error);
+    res.status(500).send('Internal Server Error')
+  }
 });
 
 
@@ -69,30 +71,32 @@ router.get('/', (req,res)=>{
 
 });
 */
-router.get('/about', (req,res)=>{
-  fs.readFile("views/pages/about.ejs", function callback_read(err,data){
-    if (err){
-      throw err;
-    }
+router.get('/about', async (req,res)=>{
+  try{
+    const pageContents = await ejs.renderFile('views/pages/about.ejs');
     res.render('layout', {
       title:"About Me | Marc Nettles",
-      content: data
+      content: pageContents
     });
-  });
+  } catch(error){
+    console.error('Error rendering partial:', error);
+    res.status(500).send('Internal Server Error')
+  }
 });
 
 
 // My blog
-router.get('/blog', (req,res)=>{
-  fs.readFile("views/pages/blog.ejs", function callback_read(err,data){
-    if(err){
-      throw err;
-    }
+router.get('/blog', async (req,res)=>{
+  try{
+    const pageContents = await ejs.renderFile('views/pages/blog.ejs');
     res.render('layout', {
       title:"Blog | Marc Nettles",
-      content: data
+      content: pageContents
     });
-  });
+   } catch(error){
+    console.error('Error rendering partial:', error);
+    res.status(500).send('Internal Server Error')
+  }
 });
 
 
@@ -105,16 +109,17 @@ router.get('/blog', (req,res)=>{
 
 });
 */
-router.get('/flickr', (req,res)=>{
-  fs.readFile("views/pages/flickr.ejs", function callback_read(err,data){
-    if (err){
-      throw err;
-    }
+router.get('/flickr', async (req,res)=>{
+  try{
+    const pageContents = await ejs.renderFile('views/pages/flickr.ejs');
     res.render('layout', {
       title:"Flickr Api Access Example | Marc Nettles",
-      content: data
+      content: pageContents
     });
-  });
+  } catch(error){
+    console.error('Error rendering partial:', error);
+    res.status(500).send('Internal Server Error')
+  }
 });
 
 // Personal Projects directory. Will contain all my personal projects that I have code for.
@@ -124,16 +129,17 @@ router.get('/flickr', (req,res)=>{
   });
 });
 */
-router.get('/projects', (req,res)=>{
-  fs.readFile("views/pages/projects.ejs", function callback_read(err,data){
-    if (err){
-      throw err;
-    }
+router.get('/projects', async (req,res)=>{
+  try{
+    const pageContents = await ejs.renderFile('views/partials/projects.ejs');
     res.render('layout', {
       title:"My Projects | Marc Nettles",
-      content: data
+      content: pageContents
     });
-  });
+  } catch(error){
+    console.error('Error rendering partial:', error);
+    res.status(500).send('Internal Server Error')
+  }
 });
 
 
@@ -146,16 +152,17 @@ router.get('/projects', (req,res)=>{
 });
 */
 // NOTE: signup modal seems to be having trouble before I even did this, so I think something with the CSP is blocking it? Not sure...
-router.get('/signup', (req,res)=>{
-  fs.readFile("views/pages/signup.ejs", function callback_read(err,data){
-    if (err){
-      throw err;
-    }
+router.get('/signup', async (req,res)=>{
+  try{
+    const pageContents = await ejs.renderFile('views/partials/signup.ejs');
     res.render('layout', {
       title:"Signup/Login | Marc Nettles",
-      content: data
+      content: pageContents
     });
-  });
+  } catch(error){
+    console.error('Error rendering partial:', error);
+    res.status(500).send('Internal Server Error')
+  }
 });
 
 
@@ -168,30 +175,35 @@ router.get('/signup', (req,res)=>{
   });
 });
 */
-router.get('/tictactoe', (req,res)=>{
-  fs.readFile("views/pages/tictactoe.ejs", function callback_read(err,data){
-    if (err){
-      throw err;
-    }
+router.get('/tictactoe', async (req,res)=>{
+  try{
+    const pageContents = await ejs.renderFile('views/partials/tictactoe.ejs');
     res.render('layout', {
       title:"Simple Tic-Tac-Toe Demo | Marc Nettles",
       content: data
     });
-  });
+  } catch(error){
+    console.error('Error rendering partial:', error);
+    res.status(500).send('Internal Server Error')
+  }
 });
 
 // Just a test page to mess around with.
-router.get('/testpage', (req,res)=>{
-  fs.readFile("views/pages/aboutTest.ejs", function callback_read(err,data){
-    if (err){
-      throw err;
+router.get('/testpage', async (req,res)=>{
+    try{
+
+      const pageContents = await ejs.renderFile('views/pages/about.ejs');//'views/partials/skillsnavbar.ejs');
+      res.render('layout', {
+        title:"Test Page | Marc Nettles",
+        content: skillsnavbar //res.render('pages/testpage') //data // Figure out how to make this run as javascript and not as just regular HTML. Maybe use res.render('pages/testpage) instead?
+      });
+
+    } catch(error){
+      console.error('Error rendering partial:', error);
+      res.status(500).send('Internal Server Error')
     }
-    res.render('layout', {
-      title:"Test Page | Marc Nettles",
-      content: data
-    });
+    
   });
-});
 
 //-------------------------------------END------------------------------------------->
 //===================================================================================>
