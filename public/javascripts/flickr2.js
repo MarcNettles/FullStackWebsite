@@ -1,3 +1,6 @@
+
+// Note to self: Change this to use AJAX instead.
+
 var nextPage = "1"
 
 document.addEventListener('DOMContentLoaded', () => {
