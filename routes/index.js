@@ -131,7 +131,7 @@ router.get('/flickr', async (req,res)=>{
 */
 router.get('/projects', async (req,res)=>{
   try{
-    const pageContents = await ejs.renderFile('views/partials/projects.ejs');
+    const pageContents = await ejs.renderFile('views/pages/projects.ejs');
     res.render('layout', {
       title:"My Projects | Marc Nettles",
       content: pageContents
@@ -154,7 +154,7 @@ router.get('/projects', async (req,res)=>{
 // NOTE: signup modal seems to be having trouble before I even did this, so I think something with the CSP is blocking it? Not sure...
 router.get('/signup', async (req,res)=>{
   try{
-    const pageContents = await ejs.renderFile('views/partials/signup.ejs');
+    const pageContents = await ejs.renderFile('views/pages/signup.ejs');
     res.render('layout', {
       title:"Signup/Login | Marc Nettles",
       content: pageContents
@@ -177,10 +177,10 @@ router.get('/signup', async (req,res)=>{
 */
 router.get('/tictactoe', async (req,res)=>{
   try{
-    const pageContents = await ejs.renderFile('views/partials/tictactoe.ejs');
+    const pageContents = await ejs.renderFile('views/pages/tictactoe.ejs');
     res.render('layout', {
       title:"Simple Tic-Tac-Toe Demo | Marc Nettles",
-      content: data
+      content: pageContents
     });
   } catch(error){
     console.error('Error rendering partial:', error);

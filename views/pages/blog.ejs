@@ -20,7 +20,7 @@
             <br>
             I'll recap what we did in the previous blog post for those that don't want to read it again.<br>
             First, I'm routing all the traffic through the Express Router (this is in my app.js file):<br>
-            <img src="resources/blog/Routing with a Router.PNG" alt="Code detailing how to use routing with app.js" class="img-fluid"> <br>
+            <img src="resources/blog/post001/Routing with a Router.PNG" alt="Code detailing how to use routing with app.js" class="img-fluid"> <br>
             <br>
             Next, in the /routes/index.js file, we grab a Router from Express and then we require('ejs') so we can use ejs.renderFile(). <br>
             <img src="resources/blog/post002/requireEJS.PNG" alt="Code grabbing a router from express and adding ejs support" class="img-fluid"><br>
@@ -36,7 +36,7 @@
             <br>
             <br>
             The result is the same as before:<br>
-            <img src="resources/blog/Layouts_finalresult.PNG" alt="Webpage with abouTest.ejs injected into layout.ejs" class="img-fluid"><br>
+            <img src="resources/blog/post001/Layouts_finalresult.PNG" alt="Webpage with abouTest.ejs injected into layout.ejs" class="img-fluid"><br>
             <br>
             <b>And there we have it!</b> We have fully injectable content into layouts! And that content can have content injected into it as well. Thank you for your time!
         </p>
@@ -48,16 +48,16 @@
             Instead, I figured I could use Node.js with Express to fill in the data for me by having it render the layout page and then just injecting my custom blocks of html into a variable on the layout.<br>
             <br>
             First, I’m routing using the Express Router. Then, in the app.js, I tell the app to use this routing.<br>
-            <img src="resources/blog/Routing with a Router.PNG" alt="Code detailing how to use routing with app.js" class="img-fluid"> <br>
+            <img src="resources/blog/post001/Routing with a Router.PNG" alt="Code detailing how to use routing with app.js" class="img-fluid"> <br>
              <br>
             Then, in the /routes/Index.js file, we require the fs (FileStream) to read a local html (or ejs) file. We also grab a Router from Express.<br>
-             <img src="resources/blog/IndexRouting_includingFS.PNG" alt="Code dtailing how to include router and fs filestream" class="img-fluid"><br>
+             <img src="resources/blog/post001/IndexRouting_includingFS.PNG" alt="Code dtailing how to include router and fs filestream" class="img-fluid"><br>
             <br>
             Then we do our routing. Here’s an example of how it normally looks:<br>
-            <img src="resources/blog/Example of old way.PNG" alt="Code showing how to normally use router to route GET request" class="img-fluid"><br>
+            <img src="resources/blog/post001/Example of old way.PNG" alt="Code showing how to normally use router to route GET request" class="img-fluid"><br>
             <br>
             And here’s how I change it up:<br>
-            <img src="resources/blog/Example of new way.PNG" alt="Code showing how I change the routing to inject HTML" class="img-fluid"><br>
+            <img src="resources/blog/post001/Example of new way.PNG" alt="Code showing how I change the routing to inject HTML" class="img-fluid"><br>
             <br> 
             <br>
             
@@ -82,7 +82,7 @@
                 <li>res.render(‘layout’, { title: “Test Page | Marc Nettles”, content: data });</li>
                 <ul>
                     <li>This renders the layout.ejs file in our views folder and it replaces the variable “title” with “Test Page | Marc Nettles” and “content” with “data”. “data” is the output of the fs.readFile() function we saw above.  The contents of layout.ejs are given below:</li>
-                    <li><img src="resources/blog/contentOf_layoutejs.PNG" alt="Code for layout.ejs" class="img-fluid"></li>
+                    <li><img src="resources/blog/post001/contentOf_layoutejs.PNG" alt="Code for layout.ejs" class="img-fluid"></li>
                     <li>This layout is built with EJS partials (which are just pieces of HTML in a separate file that are then loaded in here), so we don’t immediately see where the variable “title” is located, but the important part is in MAIN where we see the line “&lt;%- content -%&gt;</li>
                     <li>&lt;%- variableName -%&gt; is javascripts way of embedding unescaped HTML while removing whitespace. Use &lt;%- variableName %&gt; if you don’t want to remove whitespace.</li>
                 </ul>
@@ -91,10 +91,10 @@
 
             <br>
             So, we now know that the variable “content” is being replaced with the variable “data” which is filled by fs.readFile() to be the contents of the file aboutTest.ejs, which is seen below.<br>
-            <img src="resources/blog/contentOf_aboutTestejs.PNG" alt="Code for aboutTest.ejs" class="img-fluid"><br>
+            <img src="resources/blog/post001/contentOf_aboutTestejs.PNG" alt="Code for aboutTest.ejs" class="img-fluid"><br>
             <br>
             Which gives us the result:<br>
-            <img src="resources/blog/Layouts_finalresult.PNG" alt="Webpage with abouTest.ejs injected into layout.ejs" class="img-fluid"><br>
+            <img src="resources/blog/post001/Layouts_finalresult.PNG" alt="Webpage with abouTest.ejs injected into layout.ejs" class="img-fluid"><br>
             <br>
             <br>
             And that’s it! That’s how to asynchronously inject block content into an EJS layout!
