@@ -7,12 +7,47 @@
 <div class="row">
     <h2 class="h2 text-center">My Blog</h2>
     <div class="col">
-        <h3 class="h3">How to Inject HTML into EJS Layouts on a Node server with Express</h3>
+
+        <h3 class="h3">How to Inject HTML into EJS Layouts on a Nodejs/Expressjs Server (and still use partials in your pages!)</h3>
+        <p>
+            My last post covered the same topic, but it had one big issue: EJS files loaded in with fs.readFile() no longer filled in the &lt;%- include()%&gt; with anything!<br>
+            <br>
+            To fix this, we need to do a couple of things.<br>
+            <ol>
+                <li>Stop using fs.readFile and switch to ejs.renderFile</li>
+                <li>Add asynchronous support for the router.get()'s callback function. This way we can use "await" with the file render.</li>
+            </ol>
+            <br>
+            I'll recap what we did in the previous blog post for those that don't want to read it again.<br>
+            First, I'm routing all the traffic through the Express Router (this is in my app.js file):<br>
+            <img src="resources/blog/Routing with a Router.PNG" alt="Code detailing how to use routing with app.js" class="img-fluid"> <br>
+            <br>
+            Next, in the /routes/index.js file, we grab a Router from Express and then we require('ejs') so we can use ejs.renderFile(). <br>
+            <img src="resources/blog/post002/requireEJS.PNG" alt="Code grabbing a router from express and adding ejs support" class="img-fluid"><br>
+            <br>
+            Here's where things change a bit from the previous blog post, we do our routing, but we make our anonymous callback function asynchronous using the "async" keyword. This let's us use the "await" keyword when we try to use ejs.renderFile(). We also added a "try-catch" to catch any errors.<br>
+            <img src="resources/blog/post002/routing.PNG" alt="Code for routing GET request and rendering the page." class="img-fluid"><br>
+            <br>
+            And here is the about.ejs file, which contains an ejs directive to include a partial, skillsnavbar:<br>
+            <img src="resources/blog/post002/aboutpage.PNG" alt="Code for the about.ejs page, containing an ejs inclusion of a partial" class="img-fluid"><br>
+            <br>
+            And here is the partial:<br>
+            <img src="resources/blog/post002/skillsnavbarpartial.PNG" alt="Code for the skillsnavbar partial." class="img-fluid"><br>
+            <br>
+            <br>
+            The result is the same as before:<br>
+            <img src="resources/blog/Layouts_finalresult.PNG" alt="Webpage with abouTest.ejs injected into layout.ejs" class="img-fluid"><br>
+            <br>
+            <b>And there we have it!</b> We have fully injectable content into layouts! And that content can have content injected into it as well. Thank you for your time!
+        </p>
+        <br>
+        <br>
+        <h3 class="h3"><s>How to Inject HTML into EJS Layouts on a Node server with Express</s> OUTDATED! See new post.</h3>
         <p>So, the layout.ejs file in views had me confused because it seemed like the only thing you could do (since EJS doesn’t support block layouts, which I assume means being able to replace blocks of content in the layout) was append a layout to the beginning or end of the html, which wasn’t ideal.<br>
             <br>
             Instead, I figured I could use Node.js with Express to fill in the data for me by having it render the layout page and then just injecting my custom blocks of html into a variable on the layout.<br>
             <br>
-            First, I’m routing using the EJS Router. Then, in the app.js, I tell the app to use this routing.<br>
+            First, I’m routing using the Express Router. Then, in the app.js, I tell the app to use this routing.<br>
             <img src="resources/blog/Routing with a Router.PNG" alt="Code detailing how to use routing with app.js" class="img-fluid"> <br>
              <br>
             Then, in the /routes/Index.js file, we require the fs (FileStream) to read a local html (or ejs) file. We also grab a Router from Express.<br>
