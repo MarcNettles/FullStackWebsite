@@ -1,34 +1,105 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
     <div class="container">
+
       <ul class="nav nav-tabs">
+
         <li class="nav-item">
           <a class="nav-link active" id="cybersecurity-tab" data-toggle="tab" href="#cybersecurity">Cybersecurity</a>
         </li>
+
         <li class="nav-item">
           <a class="nav-link" id="webdev-tab" data-toggle="tab" href="#webdev">Web Development</a>
         </li>
+
         <li class="nav-item">
           <a class="nav-link" id="datascience-tab" data-toggle="tab" href="#datascience">Data Science</a>
         </li>
+
       </ul>
+
     </div>
+
   </nav>
 
   <div class="container mt-4">
+
     <div class="tab-content">
+
       <div class="tab-pane fade show active" id="cybersecurity">
+
         <h2>Cybersecurity Content</h2>
-        <p>This is the cybersecurity content...</p>
+
+        <ul>
+
+          <li> Created a custom local database, using SQL, for a mobile application, built with Android Studio, to securely store login information. 
+            Secure computing principles were utilized to ensure safe storage and transmission of data, including but not limited to: 
+            hashing with SHA-256 to securely store passwords, salt and peppering to protect against rainbow tables, 
+            input-sanitization to protect against SQL-injection attacks, and input-size checks to protect against buffer-overflow attacks.
+          </li>
+
+          <li>
+            Created an AWS Lightsail website which utilizes SSH, as well as SFTP, to connect to the back-end and securely transfer files. 
+            The website is upgraded to HTTPS via SSL/TLS certification through Let’s Encrypt and CORS (cross-origin resource sharing) to prevent malicious attacks. 
+            The website is further secured with a Content Security Policy, Cross-Origin-Opener-Policy, Cross-Origin-Resource-Policy, and much more via 
+            <a href="https://helmetjs.github.io/">Helmet</a>. This ensures protection against various attacks, including the notorious Cross-Site Scripting (XSS) attacks.
+          </li>
+
+          <li>
+            Crafted several different SQL-injection attacks to log me in as the admin without knowing the password and to trick the server into giving me the requested user’s password.
+          </li>
+
+          <li>
+            Crafted several cross-site scripting (XSS) attacks to steal the user’s cookies.
+          </li>
+
+          <li>
+            Crated several cross-site request forgery (CSRF) attacks to steal a user’s information.
+          </li>
+
+          <li>
+            Utlizied tools such as <a href="https://www.wireshark.org/">WireShark</a> to monitor network activity and detect intrusions. Crafted code to read the output of WireShark,
+            which determined the ratio of SYN requests to the number of ACK responses for each address sending requests to the server, determined if any addresses were sending significantly
+            more SYN requests than they were receiving ACKs, all of which allowed me to determine if the server was under-attack by a specific address.
+          </li>
+
+        </ul>
+
       </div>
+
       <div class="tab-pane fade" id="webdev">
+
         <h2>Web Development Content</h2>
-        <p>This is the web development content...</p>
+
+        <ul>
+
+          <li>This website is built from the ground up using:</li>
+            
+            <ul>
+
+              <li><a href="https://aws.amazon.com/lightsail/">AWS Lightsail Hosting</a> on Linux OS with <a href="https://bitnami.com/">Bitnami</a></li>
+              <li><a href="https://apache.org/">Apache</a> Webserver to securely forward traffic to Node.js</li>
+              <li><a href="https://nodejs.org/en">Node.js</a> with <a href="https://expressjs.com/">Express</a> Back-end</li>
+              <li><a href="https://ejs.co/">EJS</a>-powered Front-end</li>
+              <li>Javascript</li>
+              <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
+
+            </ul>
+
+        </ul>
+
       </div>
+
       <div class="tab-pane fade" id="datascience">
+
         <h2>Data Science Content</h2>
+
         <p>This is the data science content...</p>
+
       </div>
+
     </div>
+
   </div>
 
   <script src="javascripts/skillsnavbar.js"> </script>
