@@ -62,6 +62,7 @@ app.use(helmet({
                     ],
                     "img-src": [
                         "'self'",
+                        "data:",
                         "https://live.staticflickr.com",
                          "https://cdn.pixabay.com"
                     ]/*,
