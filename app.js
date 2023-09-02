@@ -45,6 +45,7 @@ const app = express();
     X-XSS-Protection: Legacy header that tries to mitigate XSS attacks, but makes things worse, so Helmet disables it
 */
 const helmet = require('helmet');
+// Using helmet and setting custom policies. Default helmet would be just app.use(helmet());
 app.use(helmet({
             contentSecurityPolicy: {
                 directives: {
@@ -63,11 +64,20 @@ app.use(helmet({
                         "'self'",
                         "https://live.staticflickr.com",
                          "https://cdn.pixabay.com"
-                    ]
+                    ]/*,
+                    "style-src": [
+                        "'self'"
+                    ]*/
                 },
             },
          })
         );
+// Setting custom headers that helmet doesn't set
+app.use((req, res, next) => {
+    res.setHeader('Permissions-Policy', 'geolocation=(self "https://www.marcnettles.com"), microphone=()');
+    res.setHeader('Cross-Origin-Embedder-Policy', 'require-corp; report-to="default"'); // This is new and stops people from embedding if CORS or CORP isn't enforced on their site.
+    next();
+});
 
 // Setting the view engine to recognize EJS
 //=============================//
