@@ -9,7 +9,7 @@
 -->
 
 
-<script src="/javascripts/tictactoe.js"></script>
+
 
 
 
@@ -38,8 +38,8 @@
                   <br>
                   <div class="form-group row">
                     <div class="col-sm-5 ">
-                      <button type="button" class="btn btn-primary" onclick="begin_play()">Begin Play</button>
-                      <button type="button" class="btn btn-primary" onclick="reset_play()">Reset Play</button>
+                      <button type="button" class="btn btn-primary" id="beginPlayButton">Begin Play</button> <!-- removed inline javascript onclick="begin_play()"-->
+                      <button type="button" class="btn btn-primary" id="resetPlayButton">Reset Play</button> <!-- removed inline javascript onclick="reset_play()"-->
                     </div>
                   </div>
                 </form>
@@ -79,12 +79,14 @@
                 <div class="form-group row">
                     <label for="player1" class="col-sm-2 col-form-label">Move:</label>
                     <div class="col-sm-5">
-                      <input type="text" class="form-control" id="move_text_id" placeholder="Cell Number for Example: A1" onkeydown="moveEnter(event)">
+                      <input type="text" class="form-control" id="moveInput" placeholder="Cell Number for Example: A1"> <!-- removed inline javascript onkeydown="moveEnter(event)"-->
                   </div>
                   <div class="col-sm-5">
-                      <button type="button" class="btn btn-primary" onclick="play();">Play</button>
+                      <button type="button" class="btn btn-primary" id="playButton">Play</button> <!-- removed inline javascript onclick="play();"-->
                    </div>
                   </div>
                 </form>
             
             </div>
+
+<script src="/javascripts/tictactoe.js"></script>
