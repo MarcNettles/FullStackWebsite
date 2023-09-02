@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function (){
 	beginPlayButton.addEventListener('click', begin_play);
 	resetPlayButton.addEventListener('click', reset_play);
 	playButton.addEventListener('click', play);
-	moveEnterInput.addEventListener('onkeydown', moveEnter);
+	moveEnterInput.addEventListener('keydown', moveEnter);
 
 	// Helper functions
 	function isEmpty(_str) 
@@ -421,8 +421,8 @@ document.addEventListener('DOMContentLoaded', function (){
 	function moveEnter(event) 
 	{		
 		if(event.keyCode == 13) {
-			event.preventDefault()
-			play()
+			event.preventDefault();
+			play();
 		}
 
 	}
