@@ -54,7 +54,7 @@
                 
                 <!--<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-target="#myModal">Sign Oop</button>
                 -->
-                <a href="#myModal" class="btn btn-info" data-bs-toggle="modal" onclick="openModal()"> Sign Up</a>
+                <a href="#myModal" class="btn btn-info" data-bs-toggle="modal" id="signUpButton"> Sign Up</a> <!-- removed inline javascript onclick="openModal()"-->
                 
             </div>            
             <br>
@@ -88,8 +88,8 @@
                                     placeholder="Confirm Password" required="required">
                             </div>
                             <div class="form-group">
-                                <button id="my_submit_button" class="btn btn-primary btn-block login-btn" disabled
-                                    onClick="onClickFunction()">Sign Up</button>
+                                <button class="btn btn-primary btn-block login-btn" disabled
+                                    id="modalSignUpButton">Sign Up</button> <!-- removed inline javascript onClick="onClickFunction()"-->
                             </div>
                         </div>
                         <div class="modal-footer">
