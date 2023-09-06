@@ -12,6 +12,17 @@
 
   <!-- BODY -->
   <body>
+
+    <!-- Hidden Skip to Main Content link -->
+    
+    <!-- class="sr-only sr-only-focusable" Hide an element to all devices except screen readers with .sr-only. 
+      Combine .sr-only with .sr-only-focusable to show the element again when it’s focused (e.g. by a keyboard-only user). Can also be used as mixins.
+      https://getbootstrap.com/docs/4.0/utilities/screenreaders/
+    -->
+    <a href="#main_content" id="skip_link" class="sr-only sr-only-focusable" tabindex="1">Skip to Main Content</a>
+
+
+
     <div class="container-fluid g-0"> <!-- container for the whole site.g-0 is for "no gutters" aka no margins-->
       <!-- BANNER -->
       <%- include('partials/banner') %>
@@ -24,7 +35,7 @@
 
       <div class="container-fluid">
         <!-- MAIN -->
-        <main role="main">
+        <main role="main" id="main_content">
             <%- content -%>
         </main>
       </div>
