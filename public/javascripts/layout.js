@@ -25,14 +25,17 @@ document.addEventListener('DOMContentLoaded', function (){
             }
         });
 
-        
-        
-
     });
+
+
+
     skipLink.addEventListener("blur", function (e){ // Listen for it to be unfocused, then put the sr-only stuff back on.
         skipLink.classList.add("sr-only");
         skipLink.classList.add("sr-only-focusable");
     });
+
+    //--------END---------------/
+    //==========================/
 
     
 });
