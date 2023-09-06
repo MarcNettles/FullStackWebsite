@@ -19,13 +19,15 @@
       Combine .sr-only with .sr-only-focusable to show the element again when it’s focused (e.g. by a keyboard-only user). Can also be used as mixins.
       https://getbootstrap.com/docs/4.0/utilities/screenreaders/
     -->
-    <a href="#main_content" id="skip_link" class="sr-only sr-only-focusable" tabindex="1">Skip to Main Content</a>
+    <a href="#main_content" id="skip_link" class="sr-only sr-only-focusable" tabindex="1">Skip to Main Content</a> <!-- Tab Index 1 means it'll be the first item to tab to on the page.-->
 
 
 
     <div class="container-fluid g-0"> <!-- container for the whole site.g-0 is for "no gutters" aka no margins-->
-      <!-- BANNER -->
-      <%- include('partials/banner') %>
+      <header role="banner">
+        <!-- BANNER -->
+        <%- include('partials/banner') %>
+      </header>
 
       <!-- NAVBAR -->
       <div class="sticky-top"> <!-- Make the navbar stick to the top of the page when scrolling past it-->
