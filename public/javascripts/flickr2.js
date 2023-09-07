@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const imageUrl = `https://live.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}_q.jpg`;
         const imgElement = document.createElement('img');
         imgElement.src = imageUrl;
+        imgElement.crossOrigin = "anonymous";
         resultsDiv.appendChild(imgElement);
       });
     }

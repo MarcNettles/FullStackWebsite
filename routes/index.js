@@ -41,7 +41,7 @@ router.get('/', (req,res) => {
   });
 });
 */
-router.get('/', async (req,res)=>{ // Upgraded to async so we can use "await" on the ejs.renderFile
+router.get('/', async (req,res, next)=>{ // Upgraded to async so we can use "await" on the ejs.renderFile
   try{
     const pageContents = await ejs.renderFile('views/pages/index.ejs'); // Rendering the file in order to get EJS to fill in the includes for the partials.
     
@@ -71,7 +71,7 @@ router.get('/', async (req,res)=>{ // Upgraded to async so we can use "await" on
 
 });
 */
-router.get('/about', async (req,res)=>{
+router.get('/about', async (req,res, next)=>{
   try{
     const pageContents = await ejs.renderFile('views/pages/about.ejs');
     res.render('layout', {
@@ -86,7 +86,7 @@ router.get('/about', async (req,res)=>{
 
 
 // My blog
-router.get('/blog', async (req,res)=>{
+router.get('/blog', async (req,res, next)=>{
   try{
     const pageContents = await ejs.renderFile('views/pages/blog.ejs');
     res.render('layout', {
@@ -109,7 +109,7 @@ router.get('/blog', async (req,res)=>{
 
 });
 */
-router.get('/flickr', async (req,res)=>{
+router.get('/flickr', async (req,res, next)=>{
   try{
     const pageContents = await ejs.renderFile('views/pages/flickr.ejs');
     res.render('layout', {
@@ -129,7 +129,7 @@ router.get('/flickr', async (req,res)=>{
   });
 });
 */
-router.get('/projects', async (req,res)=>{
+router.get('/projects', async (req,res, next)=>{
   try{
     const pageContents = await ejs.renderFile('views/pages/projects.ejs');
     res.render('layout', {
@@ -152,7 +152,7 @@ router.get('/projects', async (req,res)=>{
 });
 */
 // NOTE: signup modal seems to be having trouble before I even did this, so I think something with the CSP is blocking it? Not sure...
-router.get('/signup', async (req,res)=>{
+router.get('/signup', async (req,res, next)=>{
   try{
     const pageContents = await ejs.renderFile('views/pages/signup.ejs');
     res.render('layout', {
@@ -175,7 +175,7 @@ router.get('/signup', async (req,res)=>{
   });
 });
 */
-router.get('/tictactoe', async (req,res)=>{
+router.get('/tictactoe', async (req,res, next)=>{
   try{
     const pageContents = await ejs.renderFile('views/pages/tictactoe.ejs');
     res.render('layout', {
@@ -189,7 +189,7 @@ router.get('/tictactoe', async (req,res)=>{
 });
 
 // Just a test page to mess around with.
-router.get('/testpage', async (req,res)=>{
+router.get('/testpage', async (req,res, next)=>{
     try{
 
       const pageContents = await ejs.renderFile('views/pages/about.ejs');//'views/partials/skillsnavbar.ejs');
@@ -218,7 +218,7 @@ router.get('/testpage', async (req,res)=>{
 //-----------------------------------START-------------------------------------------]
 
 // Default, for when people go to example.com/, it's like a home page.
-router.post('/', (req,res) => {
+router.post('/', (req,res, next) => {
   res.send("Hello World! from METHOD=POST")
 });
 //------------------------------------END--------------------------------------------]
@@ -232,12 +232,24 @@ router.post('/', (req,res) => {
 
 
 // Default, for when people go to example.com/, it's like a home page.
-router.put('/', (req,res) => {
+router.put('/', (req,res, next) => {
   res.send("Hello World! from METHOD=PUT")
 }); 
 //-------------------------------------END-------------------------------------------<
 //===================================================================================<
 
+
+
+//                       Handle all DELETE method requests
+//====================================================================================(
+//------------------------------------START-------------------------------------------(
+
+router.delete('/users/:id', (req,res, next) => {
+
+})
+
+//-------------------------------------END--------------------------------------------(
+//====================================================================================(
 
 // Export the router so we can use it in app.js
 module.exports = router;

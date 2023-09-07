@@ -65,10 +65,12 @@ app.use(helmet({
                         "data:",
                         "https://live.staticflickr.com",
                          "https://cdn.pixabay.com"
-                    ]/*,
+                    ],
                     "style-src": [
-                        "'self'"
-                    ]*/
+                        "'self'",
+                        "https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css",
+                        "https://fonts.googleapis.com"
+                    ]
                 },
             },
          })
