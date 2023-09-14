@@ -14,119 +14,18 @@
 
 					<!-- Aside Left Column-->
 					<div class="col-lg-3 flex-nowrap d-none d-lg-block"> <!-- col-3 for this aside and the right aside, plus the col-6 from the center columns makes a full screen width of 12-->
-						<div class="row bg-dark border-top">
-							<div class="col">
-								<!-- Left empty to center the Aside L-->
-							</div>
-
-							<div class="col" class="text-center">
-								<h2 class="aside-heading fs-5">Technologies Used</h2> <!-- fs-5 is setting "font-size" to 5 on a scale of 6 to 1, 6 smallest 1 largest.-->
-							</div>
-
-							<div class="col">
-								<!-- Left empty to center the Aside L-->
-							</div>
-						</div>
-
-						<div class="row bg-light align-items-center"> <!-- align-items-center aligns all the images vertically-->
-
-							<div class="row">
-								<div class="col">
-									<img src="resources/img/HTML5Logo.webp" alt="HTML5 logo" class="img-fluid">
-								</div>
-								<div class="col">
-									<img src="resources/img/CSS3Logo.webp" alt="CSS3 logo" class="img-fluid">
-								</div>
-								<div class="col">
-									<img src="resources/img/ejsLogo.webp" alt="EJS logo" class="img-fluid">
-								</div>
-								<div class="col">
-									<img src="resources/img/ExpressJSLogo.webp" alt="ExpressJS logo" class="img-fluid">
-								</div>
-								<div class="col">
-									<img src="resources/img/JavascriptLogo.webp" alt="Javascript logo" class="img-fluid">
-								</div>
-							</div>
-
-							<div class="row">
-								<div class="col">
-									<img src="resources/img/2560px-Node.webp" alt="NodeJS logo" class="img-fluid">
-								</div>
-								<div class="col">
-									<img src="resources/img/AjaxLogo.webp" alt="AJAX logo" class="img-fluid">
-								</div>
-								<div class="col">
-									<img src="resources/img/BootstrapLogo.webp" alt="Bootstrap logo" class="img-fluid">
-								</div>
-								<div class="col">
-									<img src="resources/img/CLogo.webp" alt="C Programming Language logo" class="img-fluid">
-								</div>
-								<div class="col">
-									<img src="resources/img/CPPLogo.webp" alt="C Plus Plus logo" class="img-fluid">
-								</div>
-								<div class="col">
-									<img src="resources/img/PythonLogo.webp" alt="Python logo" class="img-fluid">
-								</div>
-								<div class="col">
-									<img src="resources/img/ScalaLogo.webp" alt="Scala logo" class="img-fluid">
-								</div>
-							</div>
-
-							<div class="row">
-								<div class="col">
-									<img src="resources/img/vmwareLogo.webp" alt="vmware logo" class="img-fluid">
-								</div>
-								<div class="col">
-									<img src="resources/img/vmwareLogo.webp" alt="vmware logo" class="img-fluid">
-								</div>
-								<div class="col">
-									<img src="resources/img/vmwareLogo.webp" alt="vmware logo" class="img-fluid">
-								</div>
-								<div class="col">
-									<img src="resources/img/vmwareLogo.webp" alt="vmware logo" class="img-fluid">
-								</div>
-								<div class="col">
-									<img src="resources/img/vmwareLogo.webp" alt="vmware logo" class="img-fluid">
-								</div>
-							</div>
-							
-
-
-						</div>
 						
-						<div class="row bg-dark border-top">
-							<div class="col">
-								<!-- Left empty to center the Aside L-->
-							</div>
-
-							<div class="col" class="text-center">
-								<h2 class="aside-heading fs-5">Category 2</h2> <!-- fs-5 is setting "font-size" to 5 on a scale of 6 to 1, 6 smallest 1 largest.-->
-							</div>
-
-							<div class="col">
-								<!-- Left empty to center the Aside L-->
-							</div>
+						<div class="row">
+							<%- include("../partials/technologies") %>
 						</div>
-
-						<div class="row bg-light align-items-center">
-
-							
-						</div>
-
-
-						
 						
 					</div>
 
 					<!-- Main Article Content-->
 					<div role="article" class="col-12 col-lg-6 flex-nowrap p-5"> <!-- In order to keep content centered, we had to use col-12 col-lg-6-->
-						<div class="d-flex justify-content-center">
-							<h2 class="display-6">~My Journey~</h2>
-						</div>
-						<br>
-						<p> 
-							Hello, my name is Marc Nettles. I recently graduated from the University of Colorado Boulder. 
-							Professionally, I am interested in <em>everything</em> from CyberSecurity to Software Engineering.
+
+						<p class="fs-5"> 
+							Hello and welcome to my site! This site is intended to showcase my abilities and projects.
 						</p>
 						<%- include("../partials/skillsnavbar.ejs") %>
 
@@ -134,48 +33,25 @@
 
 					<!-- Aside Right Column -->
 					<div class="col-3 flex-nowrap d-none d-lg-block">
-						<div class="row bg-dark border-top">
-							<div class="col">
-								<!-- Left empty to center the Aside R-->
+						
+						<div class="row">
+							<div class="row bg-dark border-top">
+								<div class="col">
+									<!-- Left empty to center the Aside R-->
+								</div>
+								<div class="col" class="text-center">
+									<h2 class="aside-heading fs-5">News</h2> <!-- fs-5 is setting "font-size" to 5 on a scale of 6 to 1, 6 smallest 1 largest.-->
+								</div>
+								<div class="col">
+									<!-- Left empty to center the Aside R-->
+								</div>
 							</div>
-							<div class="col" class="text-center">
-								<h2 class="aside-heading fs-5">News</h2> <!-- fs-5 is setting "font-size" to 5 on a scale of 6 to 1, 6 smallest 1 largest.-->
-							</div>
-							<div class="col">
-								<!-- Left empty to center the Aside R-->
-							</div>
-						</div>
-						<div class="row bg-light align-items-center">
-							<h2 class="text-center">A+ Security!</h2>
-							<div class="col">
-								<img src="resources/img/a-plus-security-rating.webp" alt="HTML5 logo" class="img-fluid">
-							</div>
-
+							<%- include("../partials/news") %>
 						</div>
 						
-						<div class="row bg-dark border-top">
-							<div class="col">
-								<!-- Left empty to center the Aside R-->
-							</div>
-							<div class="col" class="text-center">
-								<h2 class="aside-heading fs-5">Under Construction</h2> <!-- fs-5 is setting "font-size" to 5 on a scale of 6 to 1, 6 smallest 1 largest.-->
-							</div>
-							<div class="col">
-								<!-- Left empty to center the Aside R-->
-							</div>
+						<div class="row">
+							<%- include("../partials/underconstruction") %>
 						</div>
-						<div class="row bg-light align-items-center">
-							<span class="lead">Items which are still under construction:</span>
-							<ul>
-								<li>Sign In Functionality</li>
-								<li>Database Implementation with Hashed+Salted Passwords</li>
-								<li>Add More Projects to My Projects</li>
-								<li>Move partial from About Me to Home</li>
-							</ul>
-
-						</div>
-
-						
 
 					</div>
 				</div>

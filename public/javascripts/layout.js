@@ -3,6 +3,8 @@
  */
 
 // Wait for the page to be loaded
+//==============================================================/
+//---------------------START------------------------------------/
 document.addEventListener('DOMContentLoaded', function (){
 
     // Skip to Main Content Link
@@ -19,11 +21,7 @@ document.addEventListener('DOMContentLoaded', function (){
         skipLink.classList.remove("sr-only-focusable");
         
 
-        document.addEventListener("keyup", function (e){
-            if(e.key==="Enter"){
-                firstNavLink.focus();
-            }
-        });
+        
 
     });
 
@@ -37,5 +35,17 @@ document.addEventListener('DOMContentLoaded', function (){
     //--------END---------------/
     //==========================/
 
-    
+
+    // Enable Tooltips https://getbootstrap.com/docs/5.2/components/tooltips/
+    //===========================/
+    //-----------START-----------/
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
+
+
+    //-----------END-------------/
+    //===========================/
 });
+
+//==============================================================/
+//----------------------END-------------------------------------/

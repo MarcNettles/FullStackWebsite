@@ -29,36 +29,7 @@
                     <p>This is a Bootstrap carousel filled with some stock photos. Very common on the home page of any website.</p>
                 </div>
                 
-                <div class="container">
-
-                    <div id="index_main_Carousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#index_main_Carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide #1"></button>
-                            <button type="button" data-bs-target="#index_main_Carousel" data-bs-slide-to="1" aria-label="Slide #2"></button>
-                            <button type="button" data-bs-target="#index_main_Carousel" data-bs-slide-to="2" aria-label="Slide #3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="resources/img/exampleCarousel/tree.jpg" class="d-block w-100" alt="Serene Picture" width="1920px" height="900px">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="resources/img/exampleCarousel/dawn.jpg" class="d-block w-100" alt="Calm Picture" width="1920px" height="900px">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="resources/img/exampleCarousel/poppy.jpg" class="d-block w-100" alt="Flowers Picture" width="1920px" height="900px">
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#index_main_Carousel" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#index_main_Carousel" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                    </div>
-                    <p class="text-end">All Photos provided by Pixabay.com under their free photos section.</p> 
-                </div>
+                <%- include("../partials/exampleCarousel") %>
             </div>
 
             <!-- Robotics Final Video-->
