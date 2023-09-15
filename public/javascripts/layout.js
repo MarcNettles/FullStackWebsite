@@ -48,23 +48,24 @@ document.addEventListener('DOMContentLoaded', function (){
     // Swap active navbar item when clicking on others
     //===================================/
     //----------------START--------------/
+
+    // Get current location href
+    const currentLocation = window.location.href;
+    const thisURL = new URL(currentLocation);
+    const thisPath = thisURL.pathname;
+
+    // Get all the nav-link class items inside the #navbar id navbar.
     const navLinks = document.querySelectorAll('#navbar .nav-link');
-    console.log("navLinks found", navLinks)
 
-    function handleTabClick(event){
-        console.log("handling click");
-        navLinks.forEach(navLink =>{
+
+    navLinks.forEach(navLink =>{
+
+        if(navLink.getAttribute("href") === thisPath){
+            navLink.classList.add("active");
+        } else{
             navLink.classList.remove("active");
-            console.log("removing active from: ", navLink);
-        });
-
-        console.log("adding active to: ", event.target);
-        event.target.classList.add("active");
-
-    }
-
-    navLinks.forEach(navLink => {
-        navLink.addEventListener("click", handleTabClick);
+        }
+        
     });
     
     
