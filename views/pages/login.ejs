@@ -1,0 +1,108 @@
+<!--// Marc Nettles 06/27/2022
+//
+// The intent of this project is to set up my own private
+// web server which will host my public website containing
+// my coding and webdev projects.
+//
+//
+// Things I want to use: Back-end/Front-end separation, Bootstrap, NodeJS, ExpressJS, EJS, maybe try some reactJS
+-->
+
+
+<!-- signup.ejs is a separate page where the user can either log in or sign up. User name and their hashed passwords
+    will be stored in the back-end database (I will probably use pg-promise in app.js to get a connection to a PostgreSQL DB)-->
+
+    <link rel="stylesheet" type="text/css" href="/stylesheets/signup.css">
+    <script type="text/javascript" src="/javascripts/signup.js"></script>
+    
+    
+    
+    
+                <!-- Just some text at the top of the screen-->
+                <div class="container text-sm-center p-5 bg-warning" height="200px">
+                    <p class="display-5"> Login/Signup Page</h1>
+                    <p> This page is designed to showcase a separate login and signup page. All passwords are hashed before they are stored, so nobody (not even me) can look up your username/password combo.</p>
+                </div>
+                <br>
+    
+    
+                <!-- TODO: Make login section nicer than this.-->
+                <div class="container-sm px-5">
+                    <div class="row">
+                        <div class="col"></div>
+                        <div class="col">
+                            <form id="signup_form_login" action="/login">
+    
+                                <!-- Username field and label-->
+                                <label for="username">User Name:</label><br>
+                                <input type="text" id="username" placeholder="Username"><br>
+                                
+                                <!-- Password field and label-->
+                                <label for="password">Password:</label>
+                                <input type="password" id="password" placeholder="Password"><br>
+                                
+                                <!-- Submit button-->
+                                <input type="submit" value="Submit">
+    
+                            </form>
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                </div>
+                <!-- The button to open the sign up modal window-->
+                <div class="text-center">
+                    
+                    <!--<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-target="#myModal">Sign Oop</button>
+                    -->
+                    <a href="#myModal" class="btn btn-info" data-bs-toggle="modal" id="signUpButton"> Sign Up</a> <!-- removed inline javascript onclick="openModal()"-->
+                    
+                </div>            
+                <br>
+    
+                <!-- This is the actual Signup Modal-->
+                <div id="myModal" class="modal fade">
+                    <div class="modal-dialog modal-login">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <div class="avatar">
+                                    <img src="resources/img/avatar.webp" alt="Avatar">
+                                </div>
+                                <h4 class="modal-title">Sign Up page</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" aria-hidden="true"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label for="username">Username:</label>
+                                    <input id="uname" type="text" class="form-control" name="username" placeholder="Username"
+                                        required="required">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password:</label>
+                                    <input id="psw" type="password" class="form-control" name="password" placeholder="Password"
+                                        required="required">
+                                </div>
+                                <div class="form-group">
+                                    <label for="confirm password">Confirm Password:</label>
+                                    <input id="cpsw" type="password" class="form-control" name="confirm password"
+                                        placeholder="Confirm Password" required="required">
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn btn-primary btn-block login-btn" disabled
+                                        id="modalSignUpButton">Sign Up</button> <!-- removed inline javascript onClick="onClickFunction()"-->
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <div id="message" class="d-block">
+                                    <h3>Password must contain the following:</h3>
+                                    <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+                                    <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+                                    <p id="number" class="invalid">A <b>number</b></p>
+                                    <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+                                    <p id="match" class="invalid">Password and Confirm Password Match</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+    

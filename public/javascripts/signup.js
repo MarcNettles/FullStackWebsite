@@ -25,6 +25,30 @@ document.addEventListener('DOMContentLoaded', function () {
     signUpButton.addEventListener('click', openModal);
     modalSignUpButton.addEventListener('click', onClickFunction);
     
+
+
+    document.getElementById('signup_form_login').addEventListener('submit', function(event) {
+        event.preventDefault();
+        
+        const username = document.getElementById('username-signin').value;
+        const password = document.getElementById('password-signin').value;
+        
+        fetch('/login', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ username, password })
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log(data); // Process the server's response
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    });
+
     function openModal() { 
 
         var userName = document.getElementById("uname");
@@ -121,6 +145,26 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     function onClickFunction() {
-        alert("Oops! Sign-up is currently under-construction.")
+        
+        const username = document.getElementById('uname').value;
+        const password = document.getElementById('psw').value;
+        const conf_password = document.getElementById('cpsw').value;
+
+
+        fetch('/signup', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ username, password, conf_password})
+        })
+        .then(response => response.json())
+        .then(data =>{
+            console.log(data);
+        })
+        .catch(error => {
+            console.error('Error', error);
+        });
+        //alert("Oops! Sign-up is currently under-construction.")
     }
 });

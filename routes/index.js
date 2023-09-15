@@ -20,6 +20,14 @@ const db = require('../models/db');
 //-------------END-----------------//
 //=================================//
 
+// Using bcrypt for password hashing
+//=================//
+//------START------//
+const bcrypt = require('bcrypt');
+//------END--------//
+//=================//
+
+
 // Using EJS to render files so I can do my own layouts with partials still supported
 //======================================//
 //-----------------START----------------//
@@ -233,6 +241,78 @@ router.get('/testpage', async (req,res, next)=>{
 // Default, for when people go to example.com/, it's like a home page.
 router.post('/', (req,res, next) => {
   res.send("Hello World! from METHOD=POST")
+});
+
+
+
+// Signup
+router.post('/signup', async (req,res,next) => {
+  const { username, password, conf_password} = req.body;
+
+  if(password !== conf_password){
+    return res.status(400).json({ error: 'Passwords do not match'});
+  }
+  const hashedPassword = await bcrypt.hash(password, 10); // 10 is the number of salt rounds
+  // Wait for the database to be created using await db
+  const my_db = await db;
+
+  const usernameExists = await my_db.any("SELECT * FROM u_table WHERE username='"+username+"';")
+  if(usernameExists.length > 0){
+    return res.status(400).json({ error: 'Username already exists.'});
+  }
+
+  // Make a query using .any()
+  await my_db.none("INSERT INTO u_table (username, password, value) VALUES ('"+username+"','"+hashedPassword+"', 42);");  
+
+
+
+});
+
+// Log a user in
+router.post('/login', async (req,res,next) =>{
+  const { username, password } = req.body;
+ 
+
+  try{
+    // Wait for the database to be created using await db
+    const my_db = await db;
+    const result = await my_db.any('SELECT * FROM u_table where username = $1', [username]);
+
+    if (result.length === 0){
+      return res.status(401).json({ error: 'User not found'});
+    }
+
+    const hashedPassword = result[0].password;
+
+
+
+    // Compare the provided password with the hashed password
+    const passwordMatch = await bcrypt.compare(password, hashedPassword);
+
+    if (passwordMatch) {
+      // Passwords match, user is authenticated
+      res.json({ message: 'Authentication successful' });
+
+      /*
+
+
+
+            TO DO: Once the user is authenticated, we can now store the user login information and such.
+
+
+
+
+
+      */
+    } else {
+      // Passwords do not match, user authentication failed
+      res.status(401).json({ error: 'Authentication failed' });
+    }
+
+  } catch(error){
+    console.error(error);
+    res.status(500).json({ error: 'An error occurred while processing the login request.'});
+  }
 });
 //------------------------------------END--------------------------------------------]
 //===================================================================================]

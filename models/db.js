@@ -5,32 +5,24 @@
 
 // Promise based database stuff for making asynchronous requests to PostgreSQL
 const pgp = require('pg-promise')();
-// File stream to read in a file for the password
-const fs = require('fs').promises;
 
 
-
-// Function to 
-async function readDbPassword() {
-    try {
-      const dbPassword = await fs.readFile('../FullStackWebsite/AWS Lightsail Stuff/pg-pass.txt', 'utf8');
-      return dbPassword.trim();
-    } catch (error) {
-      console.error('Error reading database password:', error);
-      throw error;
-    }
-  }
 
 // Database configuration
-async function configureDatabase() {
-    const dbPassword = process.env.DB_PASSWORD;//await readDbPassword();
-    
+function configureDatabase() {
+
+    // Getting the password from the environment variable DB_PASSWORD. Recommended for security purposes.
+    // If this isn't working, check to make sure the root directory has a file named ".env" which has the line "DB_PASSWORD='password'"
+    // with the word password replaced with the actual password.
+    const dbPassword = process.env.DB_PASSWORD;
+
+    // Configuration of the database connection
     const dbConfig = {
-      host: 'localhost', // Change this to your PostgreSQL host
-      port: 5432, // Change this to your PostgreSQL port
-      database: 'www_marcnettles_com', // Change this to your database name
-      user: 'postgres', // Change this to your database username
-      password: dbPassword // Use the password read asynchronously
+      host: 'localhost', 
+      port: 5432,
+      database: 'www_marcnettles_com', 
+      user: 'postgres', 
+      password: dbPassword
     };
   
     return pgp(dbConfig);
@@ -39,7 +31,7 @@ async function configureDatabase() {
 // Create a database instance
 const db = configureDatabase();
 
-
+// Export the database so we can query it in the routes/index.js file.
 module.exports = db;
 
 

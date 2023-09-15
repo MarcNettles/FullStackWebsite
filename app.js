@@ -28,7 +28,13 @@ const app = express();
 //---------------END----------------//
 //==================================//
 
+
+// Allowing a .env file in the root directory to be accessed via process.env.VARIABLE_NAME
+//===========================//
+//----------START------------//
 require('dotenv').config();
+//-----------END-------------//
+//===========================//
 
 
 /* Setting up Helmet for 
