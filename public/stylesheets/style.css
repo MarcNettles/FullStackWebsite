@@ -59,3 +59,12 @@
 .aliceblue-text{
   color:aliceblue;
 }
+
+/*This handles the look of the blinking cursor*/
+.blinkingCursor{
+  width: 2px;
+  height: 25px;
+  background-color: #fff;
+  position: relative;
+  transform: translateX(-28px) translateY(-2px);
+}
