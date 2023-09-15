@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <%- include('partials/head') %> <!-- includes the title-->
+    <%- include('partials/head') %> <!-- includes the title. Injection of page title happens in app.js-->
   </head>
 
   <!-- BODY -->
@@ -39,7 +39,7 @@
       <div class="container-fluid">
         <!-- MAIN -->
         <main role="main" id="main_content">
-            <%- content -%>
+            <%- content -%> <!--This is where the main content of the website is injected by injecting pages. Pages then inject partials. Injection happens in app.js-->
         </main>
       </div>
 

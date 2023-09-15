@@ -28,6 +28,8 @@ const app = express();
 //---------------END----------------//
 //==================================//
 
+require('dotenv').config();
+
 
 /* Setting up Helmet for 
     Content-Security-Policy: A powerful allow-list of what can happen on your page which mitigates many attacks
@@ -44,6 +46,8 @@ const app = express();
     X-Powered-By: Info about the web server. Removed because it could be used in simple attacks
     X-XSS-Protection: Legacy header that tries to mitigate XSS attacks, but makes things worse, so Helmet disables it
 */
+//===================================================//
+//----------------------START------------------------//
 const helmet = require('helmet');
 // Using helmet and setting custom policies. Default helmet would be just app.use(helmet());
 app.use(helmet({
@@ -81,6 +85,26 @@ app.use((req, res, next) => {
     res.setHeader('Cross-Origin-Embedder-Policy', 'require-corp; report-to="default"'); // This is new and stops people from embedding if CORS or CORP isn't enforced on their site.
     next();
 });
+
+//-----------------------END-------------------------//
+//===================================================//
+
+
+
+
+// Some Database stuff, this helps us parse data
+//====================================================//
+//-------------------START----------------------------//
+// body-parser used to parse the data in a post request
+const bodyParser = require('body-parser');
+
+app.use(bodyParser.json()); // support json encoded bodies
+app.use(bodyParser.urlencoded({extended: true })); // support encoded bodies
+//---------------------END---------------------------//
+//===================================================//
+
+
+
 
 // Setting the view engine to recognize EJS
 //=============================//

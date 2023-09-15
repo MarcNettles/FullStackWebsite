@@ -18,6 +18,24 @@
 						<div class="row">
 							<%- include("../partials/technologies") %>
 						</div>
+						<!--EJS to import data if it exists-->
+						<% 
+						try{
+							if(this_data){
+								var EJSdata ="";
+
+								this_data.forEach(function(item) {
+									EJSdata += "<p>" + item.username + "</p>";
+								});
+
+							
+						%>
+						<%- EJSdata %>
+
+							<% } } catch(err){
+								console.log(err)
+							}%>
+
 						
 					</div>
 

@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     function openModal() { 
 
+        var userName = document.getElementById("uname");
         var myInput = document.getElementById("psw");
         var confirmMyInput = document.getElementById("cpsw");
         var letter = document.getElementById("letter");

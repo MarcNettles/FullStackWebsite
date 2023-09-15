@@ -13,11 +13,19 @@ const router = express.Router();
 //--------------END--------------------//
 //=====================================//
 
+// Database access
+//=================================//
+//-----------START-----------------//
+const db = require('../models/db');
+//-------------END-----------------//
+//=================================//
 
 // Using EJS to render files so I can do my own layouts with partials still supported
 //======================================//
 //-----------------START----------------//
 const ejs = require('ejs');
+//------------------END-----------------//
+//======================================//
 
 
 //                    Handle all GET method requests
@@ -42,19 +50,24 @@ router.get('/', (req,res) => {
 });
 */
 router.get('/', async (req,res, next)=>{ // Upgraded to async so we can use "await" on the ejs.renderFile
-  try{
-    const pageContents = await ejs.renderFile('views/pages/index.ejs'); // Rendering the file in order to get EJS to fill in the includes for the partials.
-    
+  
 
-    res.render('layout', { // Now we render the basic layout, which has the variable content filled with the page contents we just pulled in.
-      title:"Home | Marc Nettles | Personal Site | Full Stack Development | CU Boulder Computer Science Graduate",
-      content: pageContents
-    });
-  } catch(error){ // Standard error handling
-    console.error('Error rendering partial:', error);
-    res.status(500).send('Internal Server Error')
-  }
+  // Wait for the database to be created using await db
+  const my_db = await db;
+
+  // Make a query using .any()
+  const my_data = await my_db.any("SELECT * FROM u_table;");  
+
+  // Render the page with the database information injected
+  const pageContents = await ejs.renderFile('views/pages/index.ejs', {this_data: my_data}); // Rendering the file in order to get EJS to fill in the includes for the partials.
+
+  // Render the rest of the page by injecting it into the standard "layout"
+  res.render('layout', { // Now we render the basic layout, which has the variable content filled with the page contents we just pulled in.
+    title:"Home | Marc Nettles | Personal Site | Full Stack Development | CU Boulder Computer Science Graduate",
+    content: pageContents
+  });
 });
+
 
 
 
