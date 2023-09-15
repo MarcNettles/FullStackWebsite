@@ -256,13 +256,15 @@ router.post('/signup', async (req,res,next) => {
   // Wait for the database to be created using await db
   const my_db = await db;
 
-  const usernameExists = await my_db.any("SELECT * FROM u_table WHERE username='"+username+"';")
+  //const usernameExists = await my_db.any("SELECT * FROM u_table WHERE username='"+username+"';")
+  const usernameExists = await my_db.any("SELECT * FROM u_table WHERE username=$1", [username])
   if(usernameExists.length > 0){
     return res.status(400).json({ error: 'Username already exists.'});
   }
 
   // Make a query using .any()
-  await my_db.none("INSERT INTO u_table (username, password, value) VALUES ('"+username+"','"+hashedPassword+"', 42);");  
+  //await my_db.none("INSERT INTO u_table (username, password, value) VALUES ('"+username+"','"+hashedPassword+"', 42);");  
+  await my_db.none("INSERT INTO u_table (username, password, value) VALUES ($1, $2, 42);", [username, hashedPassword]);  
 
 
 
