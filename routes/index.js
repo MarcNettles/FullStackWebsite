@@ -69,11 +69,25 @@ router.get('/', async (req,res, next)=>{ // Upgraded to async so we can use "awa
   // Render the page with the database information injected
   const pageContents = await ejs.renderFile('views/pages/index.ejs', {this_data: my_data}); // Rendering the file in order to get EJS to fill in the includes for the partials.
 
-  // Render the rest of the page by injecting it into the standard "layout"
-  res.render('layout', { // Now we render the basic layout, which has the variable content filled with the page contents we just pulled in.
-    title:"Home | Marc Nettles | Personal Site | Full Stack Development | CU Boulder Computer Science Graduate",
-    content: pageContents
-  });
+  if(req.session.user){
+    console.log("req.session.user: ", req.session.user);
+    // Render the rest of the page by injecting it into the standard "layout"
+    res.render('layout', { // Now we render the basic layout, which has the variable content filled with the page contents we just pulled in.
+      title:"Home | Marc Nettles | Personal Site | Full Stack Development | CU Boulder Computer Science Graduate",
+      content: pageContents,
+      username: req.session.user
+    });
+  }
+  else{
+    console.log("NO req.session.user!");
+    // Render the rest of the page by injecting it into the standard "layout"
+    res.render('layout', { // Now we render the basic layout, which has the variable content filled with the page contents we just pulled in.
+      title:"Home | Marc Nettles | Personal Site | Full Stack Development | CU Boulder Computer Science Graduate",
+      content: pageContents
+    });
+  }
+
+  
 });
 
 
@@ -284,9 +298,8 @@ router.post('/login', async (req,res,next) =>{
       return res.status(401).json({ error: 'User not found'});
     }
 
+    // Retrieve the password hash from the database results.
     const hashedPassword = result[0].password;
-
-
 
     // Compare the provided password with the hashed password
     const passwordMatch = await bcrypt.compare(password, hashedPassword);
@@ -294,18 +307,15 @@ router.post('/login', async (req,res,next) =>{
     if (passwordMatch) {
       // Passwords match, user is authenticated
       res.json({ message: 'Authentication successful' });
+      // Store the user in the local session, server-side for max security.
+      req.session.user = username;
 
-      /*
+      // express-sessions will auto-save when redirecting, but not when in a POST function, so we NEED to save like this.
+      req.session.save(function(err){
+        console.error(err);
 
+      });
 
-
-            TO DO: Once the user is authenticated, we can now store the user login information and such.
-
-
-
-
-
-      */
     } else {
       // Passwords do not match, user authentication failed
       res.status(401).json({ error: 'Authentication failed' });
@@ -341,7 +351,18 @@ router.put('/', (req,res, next) => {
 
 router.delete('/users/:id', (req,res, next) => {
 
-})
+});
+
+router.delete('/logout', (req,res,next)=>{
+  if(req.session){
+    req.session.user = null;
+    req.session.destroy(function(err){
+      console.error(err);
+    });
+    console.log("User Logged Out");
+  }
+  
+});
 
 //-------------------------------------END--------------------------------------------(
 //====================================================================================(

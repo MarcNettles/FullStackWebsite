@@ -37,6 +37,32 @@ require('dotenv').config();
 //===========================//
 
 
+// Creating session tracking with express-session (to store username once they've logged in)
+//=============================//
+//--------------START----------//
+const db = require('./models/db');
+
+const session = require("express-session");
+const pgSession = require('connect-pg-simple')(session);
+
+const sessionSecret = process.env.SESSION_SECRET;
+app.use(session({
+    store: new pgSession({
+        pgPromise: db,
+    }),
+    secret: "keyboard cat", 
+    resave: false,
+    saveUninitialized: true,
+    cookie: {
+        secure: true,
+    }
+}));
+
+
+//--------------END-----------//
+//============================//
+
+
 /* Setting up Helmet for 
     Content-Security-Policy: A powerful allow-list of what can happen on your page which mitigates many attacks
     Cross-Origin-Opener-Policy: Helps process-isolate your page
