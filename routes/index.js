@@ -64,7 +64,7 @@ router.get('/', async (req,res, next)=>{ // Upgraded to async so we can use "awa
   const my_db = await db;
 
   // Make a query using .any()
-  const my_data = await my_db.any("SELECT * FROM u_table LIMIT 5;");  
+  const my_data = await my_db.any("SELECT * FROM u_table ORDER BY id DESC LIMIT 5;");  
 
   // Render the page with the database information injected
   const pageContents = await ejs.renderFile('views/pages/index.ejs', {this_data: my_data}); // Rendering the file in order to get EJS to fill in the includes for the partials.
