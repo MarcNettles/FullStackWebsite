@@ -68,9 +68,9 @@ router.get('/', async (req,res, next)=>{ // Upgraded to async so we can use "awa
 
   // Render the page with the database information injected
   const pageContents = await ejs.renderFile('views/pages/index.ejs', {this_data: my_data}); // Rendering the file in order to get EJS to fill in the includes for the partials.
-  console.log("req.session in /:", req.session);
+
   if(req.session.user){
-    console.log("req.session.user: ", req.session.user);
+
     // Render the rest of the page by injecting it into the standard "layout"
     res.render('layout', { // Now we render the basic layout, which has the variable content filled with the page contents we just pulled in.
       title:"Home | Marc Nettles | Personal Site | Full Stack Development | CU Boulder Computer Science Graduate",
@@ -79,7 +79,7 @@ router.get('/', async (req,res, next)=>{ // Upgraded to async so we can use "awa
     });
   }
   else{
-    console.log("NO req.session.user!");
+
     // Render the rest of the page by injecting it into the standard "layout"
     res.render('layout', { // Now we render the basic layout, which has the variable content filled with the page contents we just pulled in.
       title:"Home | Marc Nettles | Personal Site | Full Stack Development | CU Boulder Computer Science Graduate",
@@ -108,11 +108,21 @@ router.get('/', async (req,res, next)=>{ // Upgraded to async so we can use "awa
 */
 router.get('/about', async (req,res, next)=>{
   try{
-    const pageContents = await ejs.renderFile('views/pages/about.ejs');
-    res.render('layout', {
-      title:"About Me | Marc Nettles",
-      content: pageContents
-    });
+    if(req.session.user){
+      const pageContents = await ejs.renderFile('views/pages/about.ejs');
+      res.render('layout', {
+        title:"About Me | Marc Nettles",
+        content: pageContents,
+        username: req.session.user
+      });
+    }else{
+      const pageContents = await ejs.renderFile('views/pages/about.ejs');
+      res.render('layout', {
+        title:"About Me | Marc Nettles",
+        content: pageContents
+      });
+    }
+    
   } catch(error){
     console.error('Error rendering partial:', error);
     res.status(500).send('Internal Server Error')
@@ -123,11 +133,21 @@ router.get('/about', async (req,res, next)=>{
 // My blog
 router.get('/blog', async (req,res, next)=>{
   try{
-    const pageContents = await ejs.renderFile('views/pages/blog.ejs');
-    res.render('layout', {
-      title:"Blog | Marc Nettles",
-      content: pageContents
-    });
+    if(req.session.user){
+      const pageContents = await ejs.renderFile('views/pages/blog.ejs');
+      res.render('layout', {
+        title:"Blog | Marc Nettles",
+        content: pageContents,
+        username: req.session.user,
+      });  
+    } else{
+      const pageContents = await ejs.renderFile('views/pages/blog.ejs');
+      res.render('layout', {
+        title:"Blog | Marc Nettles",
+        content: pageContents,
+      });
+  
+    }
    } catch(error){
     console.error('Error rendering partial:', error);
     res.status(500).send('Internal Server Error')
@@ -146,12 +166,21 @@ router.get('/blog', async (req,res, next)=>{
 */
 router.get('/flickr', async (req,res, next)=>{
   try{
-    const pageContents = await ejs.renderFile('views/pages/flickr.ejs');
-    res.render('layout', {
-      title:"Flickr Api Access Example | Marc Nettles",
-      content: pageContents
-    });
-  } catch(error){
+    if(req.session.user){
+      const pageContents = await ejs.renderFile('views/pages/flickr.ejs');
+      res.render('layout', {
+        title:"Flickr Api Access Example | Marc Nettles",
+        content: pageContents,
+        username: req.session.user,
+      });
+    } else{
+      const pageContents = await ejs.renderFile('views/pages/flickr.ejs');
+      res.render('layout', {
+        title:"Flickr Api Access Example | Marc Nettles",
+        content: pageContents
+      });  
+    }
+} catch(error){
     console.error('Error rendering partial:', error);
     res.status(500).send('Internal Server Error')
   }
@@ -166,11 +195,20 @@ router.get('/flickr', async (req,res, next)=>{
 */
 router.get('/projects', async (req,res, next)=>{
   try{
-    const pageContents = await ejs.renderFile('views/pages/projects.ejs');
-    res.render('layout', {
-      title:"My Projects | Marc Nettles",
-      content: pageContents
-    });
+    if(req.session.user){
+      const pageContents = await ejs.renderFile('views/pages/projects.ejs');
+      res.render('layout', {
+        title:"My Projects | Marc Nettles",
+        content: pageContents,
+        username: req.session.user,
+      });
+    } else{
+      const pageContents = await ejs.renderFile('views/pages/projects.ejs');
+      res.render('layout', {
+        title:"My Projects | Marc Nettles",
+        content: pageContents
+      });  
+    }
   } catch(error){
     console.error('Error rendering partial:', error);
     res.status(500).send('Internal Server Error')
@@ -189,11 +227,21 @@ router.get('/projects', async (req,res, next)=>{
 // NOTE: signup modal seems to be having trouble before I even did this, so I think something with the CSP is blocking it? Not sure...
 router.get('/signup', async (req,res, next)=>{
   try{
-    const pageContents = await ejs.renderFile('views/pages/signup.ejs');
-    res.render('layout', {
-      title:"Signup/Login | Marc Nettles",
-      content: pageContents
-    });
+    if(req.session.user){
+      const pageContents = await ejs.renderFile('views/pages/signup.ejs');
+      res.render('layout', {
+        title:"Signup/Login | Marc Nettles",
+        content: pageContents,
+        username: req.session.user,
+      });
+    } else{
+      const pageContents = await ejs.renderFile('views/pages/signup.ejs');
+      res.render('layout', {
+        title:"Signup/Login | Marc Nettles",
+        content: pageContents
+      });
+    }
+ 
   } catch(error){
     console.error('Error rendering partial:', error);
     res.status(500).send('Internal Server Error')
@@ -212,34 +260,43 @@ router.get('/signup', async (req,res, next)=>{
 */
 router.get('/tictactoe', async (req,res, next)=>{
   try{
-    const pageContents = await ejs.renderFile('views/pages/tictactoe.ejs');
-    res.render('layout', {
-      title:"Simple Tic-Tac-Toe Demo | Marc Nettles",
-      content: pageContents
-    });
-  } catch(error){
+    if(req.session.user){
+      const pageContents = await ejs.renderFile('views/pages/tictactoe.ejs');
+      res.render('layout', {
+        title:"Simple Tic-Tac-Toe Demo | Marc Nettles",
+        content: pageContents,
+        username: req.session.user,
+      });
+   
+    } else{
+      const pageContents = await ejs.renderFile('views/pages/tictactoe.ejs');
+      res.render('layout', {
+        title:"Simple Tic-Tac-Toe Demo | Marc Nettles",
+        content: pageContents
+      });
+   
+    }
+ } catch(error){
     console.error('Error rendering partial:', error);
     res.status(500).send('Internal Server Error')
   }
 });
 
-// Just a test page to mess around with.
-router.get('/testpage', async (req,res, next)=>{
-    try{
 
-      const pageContents = await ejs.renderFile('views/pages/about.ejs');//'views/partials/skillsnavbar.ejs');
-      res.render('layout', {
-        title:"Test Page | Marc Nettles",
-        content: skillsnavbar //res.render('pages/testpage') //data // Figure out how to make this run as javascript and not as just regular HTML. Maybe use res.render('pages/testpage) instead?
+router.get('/logout', async (req,res,next)=>{
+    if(req.session.user){
+      req.session.user = null;
+      req.session.destroy(function(err){
+        if(err){
+          console.error("Error destroying session: ", req.session);
+        }
       });
-
-    } catch(error){
-      console.error('Error rendering partial:', error);
-      res.status(500).send('Internal Server Error')
     }
     
+    // Redirect to the home page after logging out.
+    res.redirect('/');
+    //next();
   });
-
 //-------------------------------------END------------------------------------------->
 //===================================================================================>
 
@@ -312,8 +369,8 @@ router.post('/login', async (req,res,next) =>{
 
       // express-sessions will auto-save when redirecting, but not when in a POST function, so we NEED to save like this.
       req.session.save(function(err){
-        //console.error("Error saving the session", err);
-        console.log("session info", req.session);
+        if(err){console.error("Error saving the session", err);}
+        //console.log("session info", req.session);
 
       });
       next();

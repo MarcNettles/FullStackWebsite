@@ -58,11 +58,34 @@
 		<ul class="navbar-nav navbar-right">
 
 			<!-- ADD CODE HERE TO SHOW WHO IS LOGGED IN.-->
+			<%
+				try{
 
-			<!--MAKE THIS AN OPTIONAL ITEM THAT IF THERE ISN"T A USER LOGGED IN, THEN THIS SHOWS, OTHERWISE IT SHOWS A SIGN OUT BUTTON-->
-			<li>
-				<a class="nav-link" href="/signup">Sign In</a>
-			</li>
+				
+					if(username){
+						var loggedInSignOut = '<li><p class="golden-text nav-link">Username: '+username+'</p></li><li><a class="nav-link" href="/logout">Sign Out</a></li>'
+
+			%>
+			
+			<%- loggedInSignOut %>
+			
+			<%	
+					} 
+			%>
+			
+			
+			<% 
+					
+				} catch(err){
+					
+					var loggedOutSignIn = '<li><a class="nav-link" href="/signup">Sign In</a></li>'
+			%>
+			
+			<%- loggedOutSignIn %>
+			
+			<%
+				}
+			%>
 
 			<li>
 				<a class="navbar-brand navbar-right" href="https://github.com/MarcNettles">
