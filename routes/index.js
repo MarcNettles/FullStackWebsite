@@ -68,7 +68,7 @@ router.get('/', async (req,res, next)=>{ // Upgraded to async so we can use "awa
 
   // Render the page with the database information injected
   const pageContents = await ejs.renderFile('views/pages/index.ejs', {this_data: my_data}); // Rendering the file in order to get EJS to fill in the includes for the partials.
-
+  console.log("req.session in /:", req.session);
   if(req.session.user){
     console.log("req.session.user: ", req.session.user);
     // Render the rest of the page by injecting it into the standard "layout"
@@ -312,9 +312,12 @@ router.post('/login', async (req,res,next) =>{
 
       // express-sessions will auto-save when redirecting, but not when in a POST function, so we NEED to save like this.
       req.session.save(function(err){
-        console.error(err);
+        //console.error("Error saving the session", err);
+        console.log("session info", req.session);
 
       });
+      next();
+
 
     } else {
       // Passwords do not match, user authentication failed
@@ -349,7 +352,7 @@ router.put('/', (req,res, next) => {
 //====================================================================================(
 //------------------------------------START-------------------------------------------(
 
-router.delete('/users/:id', (req,res, next) => {
+/*router.delete('/users/:id', (req,res, next) => {
 
 });
 
@@ -363,7 +366,7 @@ router.delete('/logout', (req,res,next)=>{
   }
   
 });
-
+*/
 //-------------------------------------END--------------------------------------------(
 //====================================================================================(
 
