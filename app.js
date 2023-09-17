@@ -50,11 +50,12 @@ app.use(session({
     store: new pgSession({
         pgPromise: db,
     }),
-    secret: "keyboard cat", 
+    secret: sessionSecret, 
     resave: false,
     saveUninitialized: true,
     cookie: {
-        secure: true,
+        httpOnly: true,
+        secure: false,
     }
 }));
 
