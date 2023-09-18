@@ -393,7 +393,7 @@ router.post('/login', async (req,res,next) =>{
         res.status(401).json({ error: 'Authentication failed' });
       }
     } else{
-    return res.status(400).json({error: 'Username needs to be alpha-numeric. No un-approved characters.'});
+    return res.status(400).json({error: 'Username needs to be alpha-numeric or an email address. No un-approved characters.'});
   }
 
   } catch(error){
@@ -441,6 +441,21 @@ router.delete('/logout', (req,res,next)=>{
 */
 //-------------------------------------END--------------------------------------------(
 //====================================================================================(
+
+
+//                            Catch ALL unhandled requests
+//====================================================================================(
+//------------------------------------START-------------------------------------------(
+
+// TO DO: finish this up with more
+
+router.get('*', (req,res)=>{ // This is an endpoint, so we don't need  (req,res,next) because we don't have a second anything after this to next() to.]
+  res.status(404).json({ message: "Route does not exist."})
+});
+
+//-------------------------------------END--------------------------------------------(
+//====================================================================================(
+
 
 // Export the router so we can use it in app.js
 module.exports = router;
