@@ -103,7 +103,10 @@
 
         <h2>Data Science Content</h2>
 
-        <p>This is the data science content...</p>
+        <ul>
+          <li>Utilized <a href="https://pandas.pydata.org/">Pandas</a> to read in .csv's and process the data then visualize with <a href="https://matplotlib.org/">matplotlib.pyplot</a> in an <a href="https://anaconda.org/">Anaconda</a> environment using <a href="https://jupyter.org/">Jupyter Notebooks</a>.</li>
+          <li>Utlized data mining techinques, as well as tools such as <a href="https://rapidminer.com/">RapidMiner</a>, to extract useful information about various datasets.</li>
+        </ul>
 
       </div>
 
@@ -112,9 +115,19 @@
 
         <h2>Databasing Related Content</h2>
 
-        <p>This is the database related content...</p>
         <ul>
-          <li><p>This website uses a PostgreSQL database with secure password hashing.</p></li>
+          <li> <a href="https://github.com/MarcNettles/FaceOff3">FaceOff</a>: An app created during the COVID-Era to track health. For this, I created a custom local database which implments 
+            security measures including but not limited to: storing passwords securing using hashing, salting to protect against rainbow tables. We also planned to implement input-sanitization 
+            to protect against SQL-injection attacks and input-size checks to protect against buffer-overflow attacks but ran out of time.
+          </li>
+
+          <li>
+            <a href="https://wwww.marcnettles.com/">wwww.marcnettles.com</a>: Created an AWS Lightsail website which utilizes SSH, as well as SFTP, to connect to the back-end and securely 
+            transfer files. The website is upgraded to HTTPS via SSL/TLS certification through Let’s Encrypt and CORS (cross-origin resource sharing) to prevent malicious attacks. 
+            The website is further secured with a Content Security Policy, Cross-Origin-Opener-Policy, Cross-Origin-Resource-Policy, and much more via 
+            <a href="https://helmetjs.github.io/">HelmetJS</a>. This ensures protection against various attacks, including the notorious Cross-Site Scripting (XSS) attacks. Utilizes a
+            PostgreSQL database with secure hashing and 10-rounds of salting to protect user passwords.
+          </li>
         </ul>
       </div>
 
