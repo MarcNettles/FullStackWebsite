@@ -39,7 +39,7 @@ const ejs = require('ejs');
 // Regex for making sure username is alphanumeric
 //====================//
 //-------START--------//
-const usernamePattern = /^[a-zA-Z0-9_]+$/; // pattern requires one or more of a-z or A-Z or 0-9. $ is end of line. ^ is start of line.
+const usernamePattern = /^[a-zA-Z0-9\-_@.]+$/; // pattern requires one or more of a-z or A-Z or 0-9. $ is end of line. ^ is start of line.
 //--------END---------//
 //====================//
 
