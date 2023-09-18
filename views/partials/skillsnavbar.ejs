@@ -36,17 +36,17 @@
 
         <ul>
 
-          <li> Created a custom local database, using SQL, for a mobile application, built with Android Studio, to securely store login information. 
-            Secure computing principles were utilized to ensure safe storage and transmission of data, including but not limited to: 
-            hashing with SHA-256 to securely store passwords, salt and peppering to protect against rainbow tables, 
-            input-sanitization to protect against SQL-injection attacks, and input-size checks to protect against buffer-overflow attacks.
+          <li> <a href="https://github.com/MarcNettles/FaceOff3">FaceOff</a>: An app created during the COVID-Era to track health. For this, I created a custom local database which implments 
+            security measures including but not limited to: storing passwords securing using hashing, salting to protect against rainbow tables. We also planned to implement input-sanitization 
+            to protect against SQL-injection attacks and input-size checks to protect against buffer-overflow attacks but ran out of time.
           </li>
 
           <li>
-            Created an AWS Lightsail website which utilizes SSH, as well as SFTP, to connect to the back-end and securely transfer files. 
-            The website is upgraded to HTTPS via SSL/TLS certification through Let’s Encrypt and CORS (cross-origin resource sharing) to prevent malicious attacks. 
+            <a href="https://wwww.marcnettles.com/">wwww.marcnettles.com</a>: Created an AWS Lightsail website which utilizes SSH, as well as SFTP, to connect to the back-end and securely 
+            transfer files. The website is upgraded to HTTPS via SSL/TLS certification through Let’s Encrypt and CORS (cross-origin resource sharing) to prevent malicious attacks. 
             The website is further secured with a Content Security Policy, Cross-Origin-Opener-Policy, Cross-Origin-Resource-Policy, and much more via 
-            <a href="https://helmetjs.github.io/">HelmetJS</a>. This ensures protection against various attacks, including the notorious Cross-Site Scripting (XSS) attacks.
+            <a href="https://helmetjs.github.io/">HelmetJS</a>. This ensures protection against various attacks, including the notorious Cross-Site Scripting (XSS) attacks. Utilizes a
+            PostgreSQL database with secure hashing and 10-rounds of salting to protect user passwords.
           </li>
 
           <li>
