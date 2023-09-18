@@ -36,6 +36,13 @@ const ejs = require('ejs');
 //======================================//
 
 
+// Regex for making sure username is alphanumeric
+//====================//
+//-------START--------//
+const usernamePattern = /^[a-zA-Z0-9_]+$/; // pattern requires one or more of a-z or A-Z or 0-9. $ is end of line. ^ is start of line.
+//--------END---------//
+//====================//
+
 //                    Handle all GET method requests
 //===================================================================================>
 //--------------------------------START---------------------------------------------->
@@ -333,9 +340,11 @@ router.post('/signup', async (req,res,next) => {
     return res.status(400).json({ error: 'Username already exists.'});
   }
 
-  // Make a query using .any()
-  //await my_db.none("INSERT INTO u_table (username, password, value) VALUES ('"+username+"','"+hashedPassword+"', 42);");  
-  await my_db.none("INSERT INTO u_table (username, password, value) VALUES ($1, $2, 42);", [username, hashedPassword]);  
+  if(usernamePattern.test(username)){
+    await my_db.none("INSERT INTO u_table (username, password, value) VALUES ($1, $2, 42);", [username, hashedPassword]);  
+  } else{
+    return res.status(400).json({error: 'Username needs to be alpha-numeric. No un-approved characters.'});
+  }
 
 
 
@@ -345,41 +354,47 @@ router.post('/signup', async (req,res,next) => {
 router.post('/login', async (req,res,next) =>{
   const { username, password } = req.body;
  
-
+  
   try{
-    // Wait for the database to be created using await db
-    const my_db = await db;
-    const result = await my_db.any('SELECT * FROM u_table where username = $1', [username]);
 
-    if (result.length === 0){
-      return res.status(401).json({ error: 'User not found'});
-    }
+    if(usernamePattern.test(username)){
+     
+      // Wait for the database to be created using await db
+      const my_db = await db;
+      const result = await my_db.any('SELECT * FROM u_table where username = $1', [username]);
 
-    // Retrieve the password hash from the database results.
-    const hashedPassword = result[0].password;
+      if (result.length === 0){
+        return res.status(401).json({ error: 'User not found'});
+      }
 
-    // Compare the provided password with the hashed password
-    const passwordMatch = await bcrypt.compare(password, hashedPassword);
+      // Retrieve the password hash from the database results.
+      const hashedPassword = result[0].password;
 
-    if (passwordMatch) {
-      // Passwords match, user is authenticated
-      res.json({ message: 'Authentication successful' });
-      // Store the user in the local session, server-side for max security.
-      req.session.user = username;
+      // Compare the provided password with the hashed password
+      const passwordMatch = await bcrypt.compare(password, hashedPassword);
 
-      // express-sessions will auto-save when redirecting, but not when in a POST function, so we NEED to save like this.
-      req.session.save(function(err){
-        if(err){console.error("Error saving the session", err);}
-        //console.log("session info", req.session);
+      if (passwordMatch) {
+        // Passwords match, user is authenticated
+        res.json({ message: 'Authentication successful' });
+        // Store the user in the local session, server-side for max security.
+        req.session.user = username;
 
-      });
-      next();
+        // express-sessions will auto-save when redirecting, but not when in a POST function, so we NEED to save like this.
+        req.session.save(function(err){
+          if(err){console.error("Error saving the session", err);}
+          //console.log("session info", req.session);
+
+        });
+        next();
 
 
-    } else {
-      // Passwords do not match, user authentication failed
-      res.status(401).json({ error: 'Authentication failed' });
-    }
+      } else {
+        // Passwords do not match, user authentication failed
+        res.status(401).json({ error: 'Authentication failed' });
+      }
+    } else{
+    return res.status(400).json({error: 'Username needs to be alpha-numeric. No un-approved characters.'});
+  }
 
   } catch(error){
     console.error(error);
