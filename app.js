@@ -115,6 +115,7 @@ app.use(helmet({
         );
 // Setting custom headers that helmet doesn't set
 app.use((req, res, next) => {
+    console.log('Setting Headers!!!');
     res.setHeader('Permissions-Policy', 'geolocation=(self "https://www.marcnettles.com"), microphone=()');
     res.setHeader('Cross-Origin-Embedder-Policy', 'require-corp; report-to="default"'); // This is new and stops people from embedding if CORS or CORP isn't enforced on their site.
     next();
