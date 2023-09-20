@@ -381,7 +381,9 @@ router.post('/login', async (req,res,next) =>{
 
         // express-sessions will auto-save when redirecting, but not when in a POST function, so we NEED to save like this.
         req.session.save(function(err){
-          if(err){console.error("Error saving the session", err);}
+          if(err){
+            console.error("Error saving the session", err);
+          }
           //console.log("session info", req.session);
 
         });
