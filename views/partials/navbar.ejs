@@ -29,69 +29,70 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarToggler">
-		<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-			<li class="nav-item">
-				<a class="nav-link" href="/" id="homeLink">Home</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="/about" id="aboutMeLink">About Me</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="/blog" id="blogLink">Blog</a>
-			</li>
-			<!-- Dropdown Menu Example-->
-			<li class="nav-item dropdown">
-				<!-- Make this item the dropdown toggle-->
-				<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="myProjectsLink">My Projects</a>
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item">
+					<a class="nav-link" href="/" id="homeLink">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/about" id="aboutMeLink">About Me</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/blog" id="blogLink">Blog</a>
+				</li>
+				<!-- Dropdown Menu Example-->
+				<li class="nav-item dropdown">
+					<!-- Make this item the dropdown toggle-->
+					<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="myProjectsLink">My Projects</a>
 
-				<!-- Now to make and unsorted list of dropdown items to fill the dropdown menu-->
-				<ul class="dropdown-menu dropdown-menu-dark">
-					<!-- Each <li> here is an item on the dropdown menu list-->
-					<li><a class="dropdown-item" href="/flickr">Flickr Gallery Search</a></li>
-					<li><a class="dropdown-item" href="/tictactoe">Tic-Tac-Toe</a></li>
-					<li><a class="dropdown-item" href="/projects">More Projects</a></li>
+					<!-- Now to make and unsorted list of dropdown items to fill the dropdown menu-->
+					<ul class="dropdown-menu dropdown-menu-dark">
+						<!-- Each <li> here is an item on the dropdown menu list-->
+						<li><a class="dropdown-item" href="/flickr">Flickr Gallery Search</a></li>
+						<li><a class="dropdown-item" href="/tictactoe">Tic-Tac-Toe</a></li>
+						<li><a class="dropdown-item" href="/projects">More Projects</a></li>
 
-				</ul>
+					</ul>
 
-			</li>
-		</ul>
-		<ul class="navbar-nav navbar-right">
+				</li>
+			</ul>
+			<ul class="navbar-nav navbar-right">
 
-			<!-- ADD CODE HERE TO SHOW WHO IS LOGGED IN.-->
-			<%
-				try{
+				<!-- ADD CODE HERE TO SHOW WHO IS LOGGED IN.-->
+				<%
+					try{
 
+					
+						if(username){
+							var loggedInSignOut = '<li><p class="golden-text nav-link">Username: '+ username +'</p></li><li><a class="nav-link" href="/logout">Sign Out</a></li>';
+
+				%>
 				
-					if(username){
-						var loggedInSignOut = '<li><p class="golden-text nav-link">Username: '+ username +'</p></li><li><a class="nav-link" href="/logout">Sign Out</a></li>';
+				<%- loggedInSignOut %>
+				
+				<%	
+						} 
+				%>
+				
+				
+				<% 
+						
+					} catch(err){
+						
+						var loggedOutSignIn = '<li><a class="nav-link" href="/signup">Sign In</a></li>'
+				%>
+				
+				<%- loggedOutSignIn %>
+				
+				<%
+					}
+				%>
 
-			%>
-			
-			<%- loggedInSignOut %>
-			
-			<%	
-					} 
-			%>
-			
-			
-			<% 
-					
-				} catch(err){
-					
-					var loggedOutSignIn = '<li><a class="nav-link" href="/signup">Sign In</a></li>'
-			%>
-			
-			<%- loggedOutSignIn %>
-			
-			<%
-				}
-			%>
-
-			<li>
-				<a class="navbar-brand navbar-right" href="https://github.com/MarcNettles">
-					<img src="resources/img/GitHub-Mark.webp" class="rounded-circle img-fluid" alt="GitHub Logo" width="40px" height="40px">
-				</a>
-			</li>
-		</ul>  
+				<li>
+					<a class="navbar-brand navbar-right" href="https://github.com/MarcNettles">
+						<img src="resources/img/GitHub-Mark.webp" class="rounded-circle img-fluid" alt="GitHub Logo" width="40px" height="40px">
+					</a>
+				</li>
+			</ul> 
+		</div>
 	</div>
 </nav>
