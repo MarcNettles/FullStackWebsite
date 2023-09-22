@@ -16,7 +16,7 @@
 //=========================================================//
 
 
-
+const environment = process.env.NODE_ENV || 'development';
 
 
 
@@ -36,29 +36,54 @@ require('dotenv').config();
 //-----------END-------------//
 //===========================//
 
-
 // Creating session tracking with express-session (to store username once they've logged in)
 //=============================//
 //--------------START----------//
+// Get the database connection for connect-pg-simple to connect to and store our session data there
 const db = require('./models/db');
 
+// Create session
 const session = require("express-session");
+
+// Use connect-pg-simple to connect the session to a database. We'll configure the
+// database connection further down in app.use(session({ store: new pgSession.
 const pgSession = require('connect-pg-simple')(session);
 
+// Get the session secret from the .env file (need to require('dotenv').config() before this.
 const sessionSecret = process.env.SESSION_SECRET;
-app.use(session({
-    store: new pgSession({
-        pgPromise: db,
-    }),
-    secret: sessionSecret, 
-    resave: false,
-    saveUninitialized: true,
-    cookie: {
-        httpOnly: true,
-        secure: false,
-        maxAge: 30 * 24 * 60 * 60 * 1000 // 30 days
-    }
-}));
+
+if(environment === 'development'){
+    app.use(session({
+        store: new pgSession({
+            pgPromise: db,
+        }),
+        secret: sessionSecret, 
+        resave: false,
+        saveUninitialized: true,
+        cookie: {
+            httpOnly: true,
+            secure: true,
+            maxAge: 30 * 24 * 60 * 60 * 1000 // 30 days
+        }
+    }));
+} else if(environment === 'production'){
+    app.use(session({
+        store: new pgSession({
+            pgPromise: db,
+        }),
+        secret: sessionSecret, 
+        resave: false,
+        saveUninitialized: true,
+        cookie: {
+            httpOnly: true,
+            secure: false,
+            maxAge: 30 * 24 * 60 * 60 * 1000 // 30 days
+        }
+    }));
+} else{
+    console.error('Error finding the Environment. Please set environment to production or development.');
+}
+
 
 
 //--------------END-----------//
@@ -115,7 +140,6 @@ app.use(helmet({
         );
 // Setting custom headers that helmet doesn't set
 app.use((req, res, next) => {
-    console.log('Setting Headers!!!');
     res.setHeader('Permissions-Policy', 'geolocation=(self "https://www.marcnettles.com"), microphone=()');
     res.setHeader('Cross-Origin-Embedder-Policy', 'require-corp; report-to="default"'); // This is new and stops people from embedding if CORS or CORP isn't enforced on their site.
     next();

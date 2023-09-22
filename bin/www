@@ -6,7 +6,10 @@
 
 var app = require('../app');
 var debug = require('debug')('webserver:server');
+var fs = require('fs');
 var http = require('http');
+
+var https = require('https');
 
 /**
  * Get port from environment and store in Express.
@@ -16,10 +19,32 @@ var port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
 /**
+ * Create HTTPS server.
+ */
+
+
+const environment = process.env.NODE_ENV || 'development';
+
+if(environment === 'development'){
+  const privateKey = fs.readFileSync('../key/marcnettles.com.key');
+  const certificate = fs.readFileSync('../key/marcnettles.com.crt');
+} else if(environment === 'production'){
+  const privateKey = fs.readFileSync('/opt/bitnami/apache2/conf/marcnettles.com.key');
+  const certificate = fs.readFileSync('/opt/bitnami/apache2/conf/marcnettles.com.crt');
+} else{
+  console.error('bin/www No Environment Set');
+}
+
+const credentials = { key: privateKey, cert: certificate };
+
+var server = https.createServer(credentials, app);
+
+
+/**
  * Create HTTP server.
  */
 
-var server = http.createServer(app);
+//var server = http.createServer(app);
 
 /**
  * Listen on provided port, on all network interfaces.

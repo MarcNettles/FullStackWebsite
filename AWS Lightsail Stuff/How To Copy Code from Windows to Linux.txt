@@ -1,0 +1,8 @@
+After loading Windows development onto Linux machine, do the following:
+
+
+1. /node_modules/bcrypt will be windows version. Delete it and grab a copy of bcrypt from inside "linux bcrypt node module". Paste it into node_modules.
+
+2. ./bin/www will need to be changed to use https with local credentials. They should be in comments that you can uncomment.
+
+3. app.js will need to be updated have session cookies be set to secure : true.
