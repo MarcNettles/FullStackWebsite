@@ -51,40 +51,22 @@ const pgSession = require('connect-pg-simple')(session);
 // Get the session secret from the .env file (need to require('dotenv').config() before this.
 const sessionSecret = process.env.SESSION_SECRET;
 
-if(environment === 'development'){
-    //console.log("app.js: Environment development");
-    app.use(session({
-        store: new pgSession({
-            pgPromise: db,
-        }),
-        secret: sessionSecret, 
-        resave: false,
-        saveUninitialized: true,
-        cookie: {
-            httpOnly: true,
-            secure: true,
-            maxAge: 30 * 24 * 60 * 60 * 1000 // 30 days
-        }
-    }));
-} else if(environment === 'production'){
-    //console.log("app.js: Environment production");
-    app.use(session({
-        store: new pgSession({
-            pgPromise: db,
-        }),
-        secret: sessionSecret, 
-        resave: false,
-        saveUninitialized: true,
-        cookie: {
-            httpOnly: true,
-            secure: false,
-            maxAge: 30 * 24 * 60 * 60 * 1000 // 30 days
-        }
-    }));
-} else{
-    //console.log("app.js: Environment none");
-    console.error('Error finding the Environment. Please set environment to production or development.');
-}
+
+// Now we set up our app to use the session we created, setting it up with the database "db", which is a PostgreSQL server o nthe backside.
+app.use(session({
+    store: new pgSession({
+        pgPromise: db,
+    }),
+    secret: sessionSecret, 
+    resave: false,
+    saveUninitialized: true,
+    cookie: {
+        httpOnly: true, // Makes it so cookies can't be read in javascript (potential security risk)
+        secure: true, // Makes cookies even more secure
+        maxAge: 30 * 24 * 60 * 60 * 1000 // 30 days
+    }
+}));
+
 
 
 
