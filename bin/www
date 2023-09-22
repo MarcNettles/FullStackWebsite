@@ -23,15 +23,24 @@ app.set('port', port);
  */
 
 
+// We're developing on windows but running on Linux, so we set the environment variable NODE_ENV by using "NODE_ENV=production node app.js" on the linux server
 const environment = process.env.NODE_ENV || 'development';
 
+// Create for use later
+var privateKey = "";
+var certficate = "";
+
+// Now we test to see which environment we are in and use the respective directory style
 if(environment === 'development'){
-  const privateKey = fs.readFileSync('../key/marcnettles.com.key');
-  const certificate = fs.readFileSync('../key/marcnettles.com.crt');
+  //console.log('bin/www ENVIRONMENT: development');
+  privateKey = fs.readFileSync('E:/Wichtigesachen/Personal Projects/FullStackWebsite2/FullStackWebsite/keys/marcnettles.com.key');
+  certificate = fs.readFileSync('E:/Wichtigesachen/Personal Projects/FullStackWebsite2/FullStackWebsite/keys/marcnettles.com.crt');
 } else if(environment === 'production'){
-  const privateKey = fs.readFileSync('/opt/bitnami/apache2/conf/marcnettles.com.key');
-  const certificate = fs.readFileSync('/opt/bitnami/apache2/conf/marcnettles.com.crt');
+  //console.log('bin/www ENVIRONMENT: production');
+  privateKey = fs.readFileSync('/opt/bitnami/apache2/conf/marcnettles.com.key');
+  certificate = fs.readFileSync('/opt/bitnami/apache2/conf/marcnettles.com.crt');
 } else{
+  //console.log('bin/www ENVIRONMENT: none');
   console.error('bin/www No Environment Set');
 }
 

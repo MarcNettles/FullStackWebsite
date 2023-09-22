@@ -16,9 +16,6 @@
 //=========================================================//
 
 
-const environment = process.env.NODE_ENV || 'development';
-
-
 
 // Setting up server using ExpressJS
 //==================================//
@@ -33,6 +30,8 @@ const app = express();
 //===========================//
 //----------START------------//
 require('dotenv').config();
+
+const environment = process.env.NODE_ENV || 'development';
 //-----------END-------------//
 //===========================//
 
@@ -53,6 +52,7 @@ const pgSession = require('connect-pg-simple')(session);
 const sessionSecret = process.env.SESSION_SECRET;
 
 if(environment === 'development'){
+    //console.log("app.js: Environment development");
     app.use(session({
         store: new pgSession({
             pgPromise: db,
@@ -67,6 +67,7 @@ if(environment === 'development'){
         }
     }));
 } else if(environment === 'production'){
+    //console.log("app.js: Environment production");
     app.use(session({
         store: new pgSession({
             pgPromise: db,
@@ -81,6 +82,7 @@ if(environment === 'development'){
         }
     }));
 } else{
+    //console.log("app.js: Environment none");
     console.error('Error finding the Environment. Please set environment to production or development.');
 }
 
