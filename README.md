@@ -27,3 +27,11 @@ PostgreSQL Database used to store user data, with an emphasis on security by fir
 ----------------------------------------------
 A step-by-step guide to doing this yourself
 ----------------------------------------------
+
+1. Sign up for an AWS Lightsail acccount if you haven't already.
+2. Create a "New Instance" using the "Linux with Nodejs" settings.
+3. Find and create "Static IP" asset and attach it to your instance. NOTE: If you need to delete the instance, FIRST detach this resource and DELETE it.
+4. Create your own projects directory in /opt/bitnami using "sudo mkdir /opt/bitnami/projects".
+5. DO NOT USE DEFAULT SSH KEY. Instead, use the AWS built in key generator or use something like PuTTY (or use the Linux ssh-keygen command).
+6. If you get a .pem file, use PuTTYGen and import the .pem file. Go to conversions->import key and import the .pem and then save the public/private pair.
+7. 
