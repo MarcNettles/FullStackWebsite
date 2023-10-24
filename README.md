@@ -40,29 +40,29 @@ A step-by-step guide to doing this yourself
    b. Your file structure should be:  
    -Project-Name  
      --bin  
-       ---www <Run this, not app.js. You should be listening on port 3000 here, not in app.js. Import app into www>  
+       \---www <Run this, not app.js. You should be listening on port 3000 here, not in app.js. Import app into www>  
      --forever  
-       ---development.json  
+       \---development.json  
      --logs  
-       ---error.log  
-       ---forever.log  
-       ---out.log  
+       \---error.log  
+       \---forever.log  
+       \---out.log  
      --models  
-       ---db.js  
+       \---db.js  
      --node_modules  
-       ---<All of your node modules are in here. Most come with Nodejs, but here's where your "npm install <package-name>" installs the modules.>  
+       \---<All of your node modules are in here. Most come with Nodejs, but here's where your "npm install <package-name>" installs the modules.>  
      --public  
-       ---javascripts <All your javascripting should be here **AVOID INLINE JAVASCRIPT**>  
-       ---resources <For storing media, such as pictures and videos>  
-       ---stylesheets <Store all CSS styles here **AVOID INLINE CSS**>  
+       \---javascripts <All your javascripting should be here **AVOID INLINE JAVASCRIPT**>  
+       \---resources <For storing media, such as pictures and videos>  
+       \---stylesheets <Store all CSS styles here **AVOID INLINE CSS**>  
      --routes  
-       ---index.js <Do your main routing of GET, POST, etc methods here, NOT in app.js>  
+       \---index.js <Do your main routing of GET, POST, etc methods here, NOT in app.js>  
      --views  
-       ---pages  
-       ---partials  
-       ---error.ejs  
-       ---index.ejs  
-       ---layout.ejs <This is the main layout. If you don't want to use layouts, ignore this.>  
+       \---pages  
+       \---partials  
+       \---error.ejs  
+       \---index.ejs  
+       \---layout.ejs <This is the main layout. If you don't want to use layouts, ignore this.>  
      --.gitattributes  
      --.gitignore  
      --app.js  
